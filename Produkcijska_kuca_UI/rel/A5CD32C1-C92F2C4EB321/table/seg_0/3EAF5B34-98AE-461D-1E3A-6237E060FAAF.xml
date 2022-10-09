@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EAF5B34-98AE-461D-1E3A-6237E060FAAF" name="Izvodjac">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:16:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="izvodjac_id" id="5F3575E8-2C74-215E-0A0C-4A3B61134A08">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:18:07 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scensko_ime" id="25963F54-06F4-590F-7EF7-CF2632C230BA">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:18:39 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F41A0A54-60F5-7345-C3BF-08BDF420A3C6" name="Izvodjac_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:18:07 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F3575E8-2C74-215E-0A0C-4A3B61134A08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

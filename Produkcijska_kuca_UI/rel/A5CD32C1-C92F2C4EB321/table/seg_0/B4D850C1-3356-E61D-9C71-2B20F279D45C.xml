@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4D850C1-3356-E61D-9C71-2B20F279D45C" name="Produkcijska Kuca">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:00:33 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naziv" id="7CD61539-5AE9-6899-A61E-A0CB7FBD476D">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:01:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produkcijska_kuca_id" id="59614D6F-F69E-4664-101F-76F03F31F122">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:01:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_osnivanja" id="2A61253C-08CF-D695-6C6D-D210F96B4997">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:02:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C750831A-8C57-3868-A5DD-EEF763E75E68" name="Produkcijska Kuca_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:01:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59614D6F-F69E-4664-101F-76F03F31F122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

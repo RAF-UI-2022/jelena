@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7F16467-3E0D-577D-C916-016338C42D26" name="Dogadjaj">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 20:38:07 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dogadjaj_id" id="07057DC7-2753-0AD8-85C9-68935D4FB2B1">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 20:38:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Termin_termin_id" id="1E22C8AA-FF48-BD65-7543-252E9EB8DC10">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 20:43:19 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3EF2C1C-D84C-56AC-3BB7-152A34765DB2" referredColumn="97DDBF34-A6BF-FC9E-6001-3AA939E419AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7EC07B6-1FB3-D86D-EF79-FE632A3CE29B" name="Dogadjaj_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 20:38:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B672F670-493F-946F-FB72-2AED388FC25A" name="Dogadjaj_Termin_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 20:43:19 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E22C8AA-FF48-BD65-7543-252E9EB8DC10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

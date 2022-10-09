@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="FC94BB5D-2674-1BC8-38AE-55B2784DEDEE" name="Produkcijska_kuca" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

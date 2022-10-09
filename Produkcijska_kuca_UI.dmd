@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Produkcijska_kuca_UI" id="74FDC236-E8B4-EA5B-B51C-396EC53FF725" version="3.5">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-09 19:00:11 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>74FDC236-E8B4-EA5B-B51C-396EC53FF725</designId>
+</OSDM_Design>
