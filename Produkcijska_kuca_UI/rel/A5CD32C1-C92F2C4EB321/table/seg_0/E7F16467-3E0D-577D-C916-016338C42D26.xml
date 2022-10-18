@@ -18,19 +18,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Termin_termin_id" id="1E22C8AA-FF48-BD65-7543-252E9EB8DC10">
+<Column name="pocetak_dogadjaja" id="793B2962-3D5D-C1D6-B1BE-D3615CE3A455">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 20:43:19 UTC</createdTime>
+<createdTime>2022-10-18 10:04:11 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C3EF2C1C-D84C-56AC-3BB7-152A34765DB2" referredColumn="97DDBF34-A6BF-FC9E-6001-3AA939E419AA"/>
-</associations>
+</Column>
+<Column name="kraj_dogadjaja" id="85722187-6AEA-7CFD-2D5C-94E3DF976634">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:04:11 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_dogadjaja" id="37B1AA4B-4F34-2DDF-5C30-A292CDEEA515">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:14:46 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -43,16 +59,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B672F670-493F-946F-FB72-2AED388FC25A" name="Dogadjaj_Termin_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 20:43:19 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1E22C8AA-FF48-BD65-7543-252E9EB8DC10"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

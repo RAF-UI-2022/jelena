@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE46580B-40B9-CEEC-72D3-BEB7979AA934" name="Komercijalni_ugovor">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:08:55 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="komercijalni_ugovor_id" id="00502B5C-60CD-8EED-5BF0-A9B0AAB96955">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:09:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kompanija_kompanija_id" id="C416EE2F-3099-0624-397B-091868A68198">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:10:37 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5D1F548-8D01-6BDA-1214-D447065FD7CF" referredColumn="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B201AC78-A489-0E77-940E-66C7F7C46B2C" name="Komercijalni_ugovor_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:09:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00502B5C-60CD-8EED-5BF0-A9B0AAB96955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1FC9F66-EA67-3165-AD95-0068351C0579" name="Komercijalni_ugovor_Kompanija_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 10:10:37 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C416EE2F-3099-0624-397B-091868A68198"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

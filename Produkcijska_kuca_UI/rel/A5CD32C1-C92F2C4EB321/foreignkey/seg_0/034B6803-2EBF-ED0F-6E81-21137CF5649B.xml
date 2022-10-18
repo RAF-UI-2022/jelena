@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="034B6803-2EBF-ED0F-6E81-21137CF5649B" containerWithKeyObject="C4FE3DA4-3662-B580-7587-7E5C85C0E117" localFKIndex="DFEEE24F-3774-7D2B-CCCB-06BE8151490F" name="Pesma_Umetnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:50:47 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Umetnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>188E1B8E-6F1E-0C60-E922-D90B8925D873</referredTableID>
+<keyObject>7B667609-809E-89ED-19EA-2E9511B7D723</keyObject>
+<referredKeyID>7B667609-809E-89ED-19EA-2E9511B7D723</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>umetnik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

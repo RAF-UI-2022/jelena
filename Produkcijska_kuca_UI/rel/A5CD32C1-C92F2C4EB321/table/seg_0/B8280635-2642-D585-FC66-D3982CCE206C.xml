@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8280635-2642-D585-FC66-D3982CCE206C" name="Izvodjac">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:52:42 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="izvodjac_id" id="0395AA03-97D1-0ED6-C8A4-CD1023D4BA8E">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:52:56 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Umetnik_umetnik_id" id="666190AA-F0D8-E6BF-A65F-0D3285F3D4F6">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:53:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D45671C3-CAF2-BEAF-F2A0-046F00F46271" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB5AD131-3ED0-0001-8C94-F406F81B1243" name="Izvodjac_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:52:56 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0395AA03-97D1-0ED6-C8A4-CD1023D4BA8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51DA88C8-9F47-EABD-4EA3-B51E7852DCFE" name="Izvodjacv2_Umetnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:53:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="666190AA-F0D8-E6BF-A65F-0D3285F3D4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

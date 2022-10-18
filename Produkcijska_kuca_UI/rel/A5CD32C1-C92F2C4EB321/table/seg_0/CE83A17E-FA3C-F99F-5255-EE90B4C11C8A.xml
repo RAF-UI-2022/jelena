@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EAF5B34-98AE-461D-1E3A-6237E060FAAF" name="Izvodjac">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE83A17E-FA3C-F99F-5255-EE90B4C11C8A" name="Prihod">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:16:26 UTC</createdTime>
+<createdTime>2022-10-18 09:33:15 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_3</ordsAlias>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="izvodjac_id" id="5F3575E8-2C74-215E-0A0C-4A3B61134A08">
+<Column name="id_prihod" id="D5A8474E-1CF8-CC34-F62A-3DA98FA16D0B">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:18:07 UTC</createdTime>
+<createdTime>2022-10-18 09:34:42 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,28 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="scensko_ime" id="25963F54-06F4-590F-7EF7-CF2632C230BA">
+<Column name="suma" id="39E596B7-81ED-99C6-AA41-E0FC783468D5">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:18:39 UTC</createdTime>
+<createdTime>2022-10-18 09:40:50 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F41A0A54-60F5-7345-C3BF-08BDF420A3C6" name="Izvodjac_PK">
+<ind_PK_UK id="985548FB-8700-F7ED-4D2B-8D6D1B81ED61" name="Prihod_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:18:07 UTC</createdTime>
+<createdTime>2022-10-18 09:35:21 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5F3575E8-2C74-215E-0A0C-4A3B61134A08"/>
+<colUsage columnID="D5A8474E-1CF8-CC34-F62A-3DA98FA16D0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

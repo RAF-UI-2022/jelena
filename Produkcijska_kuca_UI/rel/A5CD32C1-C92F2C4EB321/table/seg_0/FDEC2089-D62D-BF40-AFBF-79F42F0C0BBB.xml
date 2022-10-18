@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4FE3DA4-3662-B580-7587-7E5C85C0E117" name="Pesma">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDEC2089-D62D-BF40-AFBF-79F42F0C0BBB" name="Zanr_pesme">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:25:22 UTC</createdTime>
+<createdTime>2022-10-18 09:45:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_19</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pesma_id" id="E6995BEB-4762-258C-44EC-57580E65FF05">
+<Column name="id_zanr_pesme" id="D13CBC15-046A-5DAA-A49E-DB931C7DCCEE">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:25:42 UTC</createdTime>
+<createdTime>2022-10-18 09:46:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,21 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_pesme" id="9CF30048-CB0A-5398-F7FE-CB2AB3315076">
+<Column name="Pesma_pesma_id" id="9B113FDE-AC3A-1FED-9EA0-D6F9FD0F0B94">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:26:12 UTC</createdTime>
+<createdTime>2022-10-18 09:46:38 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Album_album_id" id="D70E7817-92BC-B46F-24C8-6897DC626FEF">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:47:12 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -40,53 +29,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0A7D28C2-74F9-260B-0F5C-DA0510D5BE6D" referredColumn="5647D96C-0C07-DC78-3B7E-19C93075DF4D"/>
+<colAssociation fkAssociation="D7D97471-8995-B928-4929-1BA8F6F83564" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
 </associations>
 </Column>
-<Column name="Umetnik_umetnik_id" id="B5C11E82-6CB8-4CC1-5FF7-7B98EBC8F19E">
+<Column name="Zanr_zanr_id" id="6BDB464D-DBC7-153F-AD76-897A81BE1365">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:50:47 UTC</createdTime>
+<createdTime>2022-10-18 09:46:44 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="034B6803-2EBF-ED0F-6E81-21137CF5649B" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+<colAssociation fkAssociation="DE7F7AE7-8773-D58B-0A61-284D150F21B8" referredColumn="3A901A71-595D-4D17-C4E7-C8A664D874B2"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="48E912CD-5411-FB9A-78C1-9EA50B961C52" name="Pesma_PK">
+<ind_PK_UK id="08F8A006-4282-E819-D754-CCB99BB1B8C4" name="Zanr_pesme_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 19:25:42 UTC</createdTime>
+<createdTime>2022-10-18 09:46:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6995BEB-4762-258C-44EC-57580E65FF05"/>
+<colUsage columnID="D13CBC15-046A-5DAA-A49E-DB931C7DCCEE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="51987E30-BE43-28EB-0424-7D2DA76899A0" name="Pesma_Album_FK">
+<ind_PK_UK id="CD497851-C6E0-B64A-2DF8-90EF63476F22" name="Zanr_pesme_Pesma_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:47:12 UTC</createdTime>
+<createdTime>2022-10-18 09:46:38 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D70E7817-92BC-B46F-24C8-6897DC626FEF"/>
+<colUsage columnID="9B113FDE-AC3A-1FED-9EA0-D6F9FD0F0B94"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DFEEE24F-3774-7D2B-CCCB-06BE8151490F" name="Pesma_Umetnik_FK">
+<ind_PK_UK id="729E6570-071B-8510-6820-1D93340089D5" name="Zanr_pesme_Zanr_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:50:47 UTC</createdTime>
+<createdTime>2022-10-18 09:46:44 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B5C11E82-6CB8-4CC1-5FF7-7B98EBC8F19E"/>
+<colUsage columnID="6BDB464D-DBC7-153F-AD76-897A81BE1365"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E9ED5A4-5D64-38C0-2703-AD3D04B86208" containerWithKeyObject="236A6C84-1438-8BD6-ACEB-B70ECF7F1E6F" localFKIndex="89356BA2-C64E-A722-2504-0D771BD43CBA" name="Izvedba_Pesma_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB12D47C-46F4-36BE-BC88-8D6251BE4EB5" containerWithKeyObject="69E87EB4-2953-256C-49C4-DE6AFE9C3679" localFKIndex="AFACED38-B213-24A8-B7C5-BC0178ACC4F2" name="Emitovanje_Pesma_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 20:09:39 UTC</createdTime>
+<createdTime>2022-10-18 10:22:08 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <referredTableLongName>Pesma</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

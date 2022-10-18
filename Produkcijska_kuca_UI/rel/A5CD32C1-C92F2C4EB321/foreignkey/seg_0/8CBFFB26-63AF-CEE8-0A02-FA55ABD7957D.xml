@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A110042E-B066-1854-B033-17EFF25556B5" containerWithKeyObject="236A6C84-1438-8BD6-ACEB-B70ECF7F1E6F" localFKIndex="72D57F24-FB2C-E5E1-44E8-3AF9A2C4F55E" name="Izvedba_Dogadjaj_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CBFFB26-63AF-CEE8-0A02-FA55ABD7957D" containerWithKeyObject="3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE" localFKIndex="2D4C5B9B-5415-499D-AA6B-16495F0BD8BD" name="Nastup_Dogadjaj_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-09 20:44:21 UTC</createdTime>
+<createdTime>2022-10-18 10:27:57 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <referredTableLongName>Dogadjaj</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0976DC5-9186-2CA4-5B70-D4DADBFAF19E" name="Tekstopisac">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:50:57 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Umetnik_umetnik_id" id="4AABFEFD-CECA-5AD2-DD75-7D16658C91EB">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:51:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E51D753-9EDC-9B4D-077B-B065BB793F29" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+</associations>
+</Column>
+<Column name="tekstopisac_id" id="D28E75A7-EF9C-CCF6-48B4-58F248B750C2">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:52:13 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3324FDC4-7CB4-BF73-6037-FCB73349816C" name="Tekstopisac_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:51:25 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D28E75A7-EF9C-CCF6-48B4-58F248B750C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41B02C28-C016-DF35-C897-B801085D3B90" name="Tekstopisac_Umetnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:51:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AABFEFD-CECA-5AD2-DD75-7D16658C91EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

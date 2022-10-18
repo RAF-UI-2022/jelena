@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E51D753-9EDC-9B4D-077B-B065BB793F29" containerWithKeyObject="F0976DC5-9186-2CA4-5B70-D4DADBFAF19E" localFKIndex="41B02C28-C016-DF35-C897-B801085D3B90" name="Tekstopisac_Umetnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-18 09:51:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Umetnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>188E1B8E-6F1E-0C60-E922-D90B8925D873</referredTableID>
+<keyObject>7B667609-809E-89ED-19EA-2E9511B7D723</keyObject>
+<referredKeyID>7B667609-809E-89ED-19EA-2E9511B7D723</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>umetnik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
