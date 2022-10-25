@@ -43,19 +43,6 @@
 <colAssociation fkAssociation="0A7D28C2-74F9-260B-0F5C-DA0510D5BE6D" referredColumn="5647D96C-0C07-DC78-3B7E-19C93075DF4D"/>
 </associations>
 </Column>
-<Column name="Umetnik_umetnik_id" id="B5C11E82-6CB8-4CC1-5FF7-7B98EBC8F19E">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:50:47 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="034B6803-2EBF-ED0F-6E81-21137CF5649B" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="48E912CD-5411-FB9A-78C1-9EA50B961C52" name="Pesma_PK">
@@ -77,16 +64,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D70E7817-92BC-B46F-24C8-6897DC626FEF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DFEEE24F-3774-7D2B-CCCB-06BE8151490F" name="Pesma_Umetnik_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:50:47 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B5C11E82-6CB8-4CC1-5FF7-7B98EBC8F19E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

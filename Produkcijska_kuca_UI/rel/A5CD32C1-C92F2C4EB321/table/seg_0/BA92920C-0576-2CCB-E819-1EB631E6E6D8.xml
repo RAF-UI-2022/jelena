@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE" name="Nastup">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA92920C-0576-2CCB-E819-1EB631E6E6D8" name="Izdanje">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:26:45 UTC</createdTime>
+<createdTime>2022-10-25 11:11:22 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_30</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nastup_id" id="D7FC7B95-610D-2393-E1E0-991C9DE78EAD">
+<Column name="izdanje_id" id="40CDE77B-4F46-1F0D-2D56-0AB1E8CC9E85">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2022-10-25 11:12:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,22 +18,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Klijent_klijent_id" id="0AE05F7F-A0C9-9D79-2550-E0EFD9D0806E">
+<Column name="godina_izdanja" id="2BFCB291-1080-B65C-3F58-6B57CE21FE7E">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:50 UTC</createdTime>
+<createdTime>2022-10-25 11:12:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="064119CF-221D-87C7-FB8F-33106A05B15C" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
-</associations>
 </Column>
-<Column name="Dogadjaj_dogadjaj_id" id="FED0B614-2C27-73D4-C548-474E17549CB4">
+<Column name="Tip_izdanja_tip_izdanja_id" id="77698A7D-A8D0-0097-6427-7EDF971F30F5">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2022-10-25 11:13:11 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,61 +39,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8CBFFB26-63AF-CEE8-0A02-FA55ABD7957D" referredColumn="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+<colAssociation fkAssociation="0EB8E2E7-0138-B297-10DA-727E6F866951" referredColumn="AD44A289-BD0D-B5EC-7DDE-C86AFFCD0D5A"/>
 </associations>
 </Column>
-<Column name="pocetak_nastupa" id="3DE73D00-D1BE-8513-C64F-ECD845D1B75E">
+<Column name="Pesma_pesma_id" id="9489F982-A408-C0F7-212E-985B6C195A33">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:01 UTC</createdTime>
+<createdTime>2022-10-25 11:13:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kraj_nastupa" id="710CD042-648A-CC0E-ED94-1D731B773611">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:13 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE0CC158-C652-A7F6-AA31-6C3CBAB66742" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D079D4A3-49A4-44BF-286C-4B936C458F0B" name="Nastup_PK">
+<ind_PK_UK id="D761A2AE-E459-788A-508F-849645D6A087" name="Izdanje_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2022-10-25 11:12:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
+<colUsage columnID="40CDE77B-4F46-1F0D-2D56-0AB1E8CC9E85"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0E01F5E1-A6A5-8EBA-EFEE-2994A7129D67" name="Nastup_Umetnik_FK">
+<ind_PK_UK id="132F8768-AF8A-473A-CD80-ADB291BE4AFA" name="Izdanje_Tip_izdanja_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:50 UTC</createdTime>
+<createdTime>2022-10-25 11:13:11 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0AE05F7F-A0C9-9D79-2550-E0EFD9D0806E"/>
+<colUsage columnID="77698A7D-A8D0-0097-6427-7EDF971F30F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D4C5B9B-5415-499D-AA6B-16495F0BD8BD" name="Nastup_Dogadjaj_FK">
+<ind_PK_UK id="3B127598-9C69-26DE-A26E-BC238082242C" name="Izdanje_Pesma_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2022-10-25 11:13:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FED0B614-2C27-73D4-C548-474E17549CB4"/>
+<colUsage columnID="9489F982-A408-C0F7-212E-985B6C195A33"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

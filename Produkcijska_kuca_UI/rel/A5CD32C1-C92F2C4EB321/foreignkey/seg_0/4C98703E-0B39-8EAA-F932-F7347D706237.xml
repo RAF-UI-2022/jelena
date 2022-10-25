@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C98703E-0B39-8EAA-F932-F7347D706237" containerWithKeyObject="B64E0E74-5D79-0415-60BA-40F060E776C1" localFKIndex="44944D08-CB2D-CAF9-75A7-92F08160B9A8" name="Televizija_Emitovanje_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 11:03:18 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Emitovanje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>69E87EB4-2953-256C-49C4-DE6AFE9C3679</referredTableID>
+<keyObject>5658F462-70F5-0283-DA9E-74157750DA89</keyObject>
+<referredKeyID>5658F462-70F5-0283-DA9E-74157750DA89</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>emitovanje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

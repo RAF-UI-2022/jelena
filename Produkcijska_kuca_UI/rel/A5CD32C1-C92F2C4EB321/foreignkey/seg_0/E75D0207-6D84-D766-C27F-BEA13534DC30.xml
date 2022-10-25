@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E75D0207-6D84-D766-C27F-BEA13534DC30" containerWithKeyObject="F5E71BF7-9F0A-9BCB-3284-083AA4743B7B" localFKIndex="FDDB6AF9-EC6C-FA62-6266-28526F06F191" name="Fiksna_nadoknada_Nadoknada_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 09:59:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Nadoknada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C159BA1A-7803-D5D2-41D7-130445EBB474</referredTableID>
+<keyObject>3C3363C8-F90D-DC68-AFD8-A40F4BA2F848</keyObject>
+<referredKeyID>3C3363C8-F90D-DC68-AFD8-A40F4BA2F848</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nadoknada_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

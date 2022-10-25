@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1CB948E-196F-77BA-0A67-7BD1CE7E4000" containerWithKeyObject="5C52C793-2E47-A2B7-292F-58F5DBA9D8CA" localFKIndex="087F7B19-E8F8-F6B5-61E2-6EB204F67525" name="Potpisivanje_kom_ugovora_Komercijalni_ugovor_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 10:32:41 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Komercijalni_ugovor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE46580B-40B9-CEEC-72D3-BEB7979AA934</referredTableID>
+<keyObject>B201AC78-A489-0E77-940E-66C7F7C46B2C</keyObject>
+<referredKeyID>B201AC78-A489-0E77-940E-66C7F7C46B2C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>komercijalni_ugovor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

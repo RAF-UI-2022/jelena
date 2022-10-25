@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E900C300-81F7-2EEF-C348-CFE027DB2750" containerWithKeyObject="F27B8F4C-8C58-28A0-A3C4-E1B44D8B6FDE" localFKIndex="38F9955A-4E05-FE75-23D7-C8DE44F4FDDE" name="Ugovor_Umetnik_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B238F60-3511-3140-B028-4D95952E2265" containerWithKeyObject="2B78DBEC-15F5-07CB-836A-7C32209805AD" localFKIndex="7AE10F8B-AA48-2D10-FC10-6C775389EB4D" name="Potpisivanje_ugovora_Klijent_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:50 UTC</createdTime>
+<createdTime>2022-10-25 10:23:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<referredTableLongName>Umetnik</referredTableLongName>
+<referredTableLongName>Klijent</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>188E1B8E-6F1E-0C60-E922-D90B8925D873</referredTableID>
 <keyObject>7B667609-809E-89ED-19EA-2E9511B7D723</keyObject>
 <referredKeyID>7B667609-809E-89ED-19EA-2E9511B7D723</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>umetnik_id</refColNames>
+<refColNames>klijent_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

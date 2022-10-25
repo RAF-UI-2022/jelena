@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6AC4CDC-1EFB-82E3-D172-8F63B1E9A6E6" containerWithKeyObject="718489E7-ED9F-58E0-A379-0139462744F6" localFKIndex="BE6F2463-F5FC-406F-D683-2C7883E2449A" name="Ugovorna_stavka_u_ugovoru_Ugovorna_stavka_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 10:16:15 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Ugovorna_stavka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A2903AF-93FF-5864-92D1-ABA28125768F</referredTableID>
+<keyObject>A0D83942-6BFA-A5AF-8251-4C8BBD6A289F</keyObject>
+<referredKeyID>A0D83942-6BFA-A5AF-8251-4C8BBD6A289F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ugovorna_stavka_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17D2BE08-5D4D-E41D-F2A1-1E62F95E7BA4" name="Drustvene_mreze">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 10:50:25 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="drus_mreze_id" id="FE5F157F-AA31-0209-49E1-916931AD8D32">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 10:50:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92C244DA-FB35-E325-7158-900C3D4F1ECC" name="Drustvene_mreze_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 10:50:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE5F157F-AA31-0209-49E1-916931AD8D32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

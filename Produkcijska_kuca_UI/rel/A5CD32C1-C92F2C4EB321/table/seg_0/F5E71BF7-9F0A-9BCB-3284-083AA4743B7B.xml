@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE46580B-40B9-CEEC-72D3-BEB7979AA934" name="Komercijalni_ugovor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5E71BF7-9F0A-9BCB-3284-083AA4743B7B" name="Fiksna_nadoknada">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:08:55 UTC</createdTime>
+<createdTime>2022-10-24 21:45:21 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_28</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="komercijalni_ugovor_id" id="00502B5C-60CD-8EED-5BF0-A9B0AAB96955">
+<Column name="fiksna_nadoknada" id="BCD7D195-F2C0-A2D1-9F81-2B9B64F7A2EF">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:09:20 UTC</createdTime>
+<createdTime>2022-10-24 21:48:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ugovor_ugovor_id" id="7EB4C75B-AB13-9943-9DB6-008BE1747082">
+<Column name="iznos" id="FD0140AA-2460-9922-E11D-46DD4D7C84E5">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:21:35 UTC</createdTime>
+<createdTime>2022-10-24 21:48:12 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nadoknada_nadoknada_id" id="FBCBD64E-6AD5-466C-404B-14237B0DF5B7">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-10-25 09:59:06 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +39,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0EB6A333-A96F-5055-26A1-BA8AACC27FF2" referredColumn="93B0958C-FEEB-8E9B-FD6B-C25BAE074311"/>
+<colAssociation fkAssociation="E75D0207-6D84-D766-C27F-BEA13534DC30" referredColumn="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B201AC78-A489-0E77-940E-66C7F7C46B2C" name="Komercijalni_ugovor_PK">
+<ind_PK_UK id="4784A680-EE07-9D56-0C98-4CC132FBB67C" name="Fiksna_nadoknada_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:09:20 UTC</createdTime>
+<createdTime>2022-10-24 21:48:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="00502B5C-60CD-8EED-5BF0-A9B0AAB96955"/>
+<colUsage columnID="BCD7D195-F2C0-A2D1-9F81-2B9B64F7A2EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A9C5656D-F202-C876-A9CF-7662BB554481" name="Komercijalni_ugovor_Ugovor_FK">
+<ind_PK_UK id="FDDB6AF9-EC6C-FA62-6266-28526F06F191" name="Fiksna_nadoknada_Nadoknada_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:21:35 UTC</createdTime>
+<createdTime>2022-10-25 09:59:06 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7EB4C75B-AB13-9943-9DB6-008BE1747082"/>
+<colUsage columnID="FBCBD64E-6AD5-466C-404B-14237B0DF5B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

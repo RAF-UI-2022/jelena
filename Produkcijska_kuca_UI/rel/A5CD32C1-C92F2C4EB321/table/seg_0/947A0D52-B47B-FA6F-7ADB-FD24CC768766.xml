@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B3E640-E404-06B8-C2C3-5860669BB8A4" name="Kompanija_partner">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947A0D52-B47B-FA6F-7ADB-FD24CC768766" name="Tip_nadoknade">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:06:52 UTC</createdTime>
+<createdTime>2022-10-24 21:40:14 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_26</ordsAlias>
+<ordsAlias>table_23</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="kompanija_id" id="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D">
+<Column name="tip_nadoknade_id" id="23473E07-E7F2-AE18-5A8B-A312F12E0A4C">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:13 UTC</createdTime>
+<createdTime>2022-10-24 21:40:30 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_kompanije" id="04C21953-DA51-FBD3-F0CA-6DC3FFACDDB5">
+<Column name="naziv_nadoknade" id="744B2B86-161E-2F3E-C4D2-FA9EC54587A5">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:24 UTC</createdTime>
+<createdTime>2022-10-24 21:40:41 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,15 +30,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DB86A754-F446-8C92-6DDC-5198E4A3B0F2" name="Kompanija_PK">
+<ind_PK_UK id="8ECF5C78-6A30-ABF1-1A5C-4F66E6AAAD7C" name="Tip_nadoknade_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:13 UTC</createdTime>
+<createdTime>2022-10-24 21:40:30 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D"/>
+<colUsage columnID="23473E07-E7F2-AE18-5A8B-A312F12E0A4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

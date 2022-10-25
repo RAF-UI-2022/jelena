@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B3E640-E404-06B8-C2C3-5860669BB8A4" name="Kompanija_partner">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EC62278-0348-36E8-70C7-6EB335EA6C01" name="Tip_ugovorne_stavke">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:06:52 UTC</createdTime>
+<createdTime>2022-10-24 21:36:39 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_26</ordsAlias>
+<ordsAlias>table_21</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="kompanija_id" id="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D">
+<Column name="tip_ugovorne_stavke_id" id="52717556-7713-2587-6960-57ACFB6FE961">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:13 UTC</createdTime>
+<createdTime>2022-10-24 21:37:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_kompanije" id="04C21953-DA51-FBD3-F0CA-6DC3FFACDDB5">
+<Column name="naziv" id="809BEC7F-F68B-7960-DC57-A712A2E40A22">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:24 UTC</createdTime>
+<createdTime>2022-10-24 21:37:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,15 +30,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DB86A754-F446-8C92-6DDC-5198E4A3B0F2" name="Kompanija_PK">
+<ind_PK_UK id="1607CAD6-9A42-650D-EBA6-18999B05AEBD" name="Tip_ugovorne_stavke_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:07:13 UTC</createdTime>
+<createdTime>2022-10-24 21:37:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D"/>
+<colUsage columnID="52717556-7713-2587-6960-57ACFB6FE961"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

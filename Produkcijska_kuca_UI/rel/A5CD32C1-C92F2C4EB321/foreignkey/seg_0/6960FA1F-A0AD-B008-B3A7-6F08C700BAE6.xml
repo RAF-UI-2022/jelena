@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5D1F548-8D01-6BDA-1214-D447065FD7CF" containerWithKeyObject="BE46580B-40B9-CEEC-72D3-BEB7979AA934" localFKIndex="D1FC9F66-EA67-3165-AD95-0068351C0579" name="Komercijalni_ugovor_Kompanija_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6960FA1F-A0AD-B008-B3A7-6F08C700BAE6" containerWithKeyObject="5C52C793-2E47-A2B7-292F-58F5DBA9D8CA" localFKIndex="77318207-6149-3B7F-8607-60B06809580F" name="Potpisivanje_kom_ugovora_Kompanija_partner_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:10:37 UTC</createdTime>
+<createdTime>2022-10-25 10:33:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<referredTableLongName>Kompanija</referredTableLongName>
+<referredTableLongName>Kompanija_partner</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>57B3E640-E404-06B8-C2C3-5860669BB8A4</referredTableID>
 <keyObject>DB86A754-F446-8C92-6DDC-5198E4A3B0F2</keyObject>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE83A17E-FA3C-F99F-5255-EE90B4C11C8A" name="Prihod">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21542813-CE6E-C42B-984A-5114ECCB9680" name="Tip_ucesca">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:33:15 UTC</createdTime>
+<createdTime>2022-10-24 19:45:32 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_prihod" id="D5A8474E-1CF8-CC34-F62A-3DA98FA16D0B">
+<Column name="tip_ucesca_id" id="1833FF98-FEFD-4416-83EF-F1C82FA3DAD6">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:34:42 UTC</createdTime>
+<createdTime>2022-10-24 19:46:01 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,27 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="suma" id="39E596B7-81ED-99C6-AA41-E0FC783468D5">
+<Column name="naziv" id="B7B73933-3C01-A946-1869-5C4046FDB742">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:40:50 UTC</createdTime>
+<createdTime>2022-10-24 19:46:18 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="985548FB-8700-F7ED-4D2B-8D6D1B81ED61" name="Prihod_PK">
+<ind_PK_UK id="B19B993F-7FFD-4CC6-7865-C22391C35F7B" name="Tip_ucesca_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:35:21 UTC</createdTime>
+<createdTime>2022-10-24 19:46:01 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D5A8474E-1CF8-CC34-F62A-3DA98FA16D0B"/>
+<colUsage columnID="1833FF98-FEFD-4416-83EF-F1C82FA3DAD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

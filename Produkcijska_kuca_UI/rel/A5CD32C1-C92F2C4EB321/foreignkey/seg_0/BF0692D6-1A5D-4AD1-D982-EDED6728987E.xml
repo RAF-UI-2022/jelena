@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7937A06A-AE9C-150C-628E-4012EADC84F7" containerWithKeyObject="F27B8F4C-8C58-28A0-A3C4-E1B44D8B6FDE" localFKIndex="AE896541-1F66-2182-AAB5-0AD8EA2E9C97" name="Ugovor_Tip_ugovora_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF0692D6-1A5D-4AD1-D982-EDED6728987E" containerWithKeyObject="C9FE99F2-3B12-B6F5-066D-CA5EE9BFE134" localFKIndex="027D1CAF-1785-DEB6-80B4-EBE91F5CB74C" name="Ugovor_Tip_ugovora_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:25:28 UTC</createdTime>
+<createdTime>2022-10-25 10:21:09 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <referredTableLongName>Tip_ugovora</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>8A23F93B-8B1D-0954-7883-A5ABFB93E200</referredTableID>
 <keyObject>7A7A94DE-1A54-6E28-636F-96B973C96EA7</keyObject>
 <referredKeyID>7A7A94DE-1A54-6E28-636F-96B973C96EA7</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>tip_ugovora_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
