@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="procentna_nadoknada_id" id="A3684EBD-8BA3-F543-77A8-3B0D9EC53FCF">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:44:32 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="procenat" id="E15B819C-BCF5-8406-9AC5-83FFCE0BCB71">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-24 21:45:02 UTC</createdTime>
@@ -52,7 +42,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A3684EBD-8BA3-F543-77A8-3B0D9EC53FCF"/>
+<colUsage columnID="B5108262-B57C-8AE2-D1A9-9E6F345655AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D0755F62-8EC3-CC6D-F11E-93A72035127E" name="Procentna_nadoknada_Nadoknada_FK">

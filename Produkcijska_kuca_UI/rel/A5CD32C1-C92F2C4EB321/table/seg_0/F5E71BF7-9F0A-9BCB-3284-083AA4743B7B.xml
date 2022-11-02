@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="fiksna_nadoknada" id="BCD7D195-F2C0-A2D1-9F81-2B9B64F7A2EF">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:48:00 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="iznos" id="FD0140AA-2460-9922-E11D-46DD4D7C84E5">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-24 21:48:12 UTC</createdTime>
@@ -52,7 +42,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BCD7D195-F2C0-A2D1-9F81-2B9B64F7A2EF"/>
+<colUsage columnID="FBCBD64E-6AD5-466C-404B-14237B0DF5B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FDDB6AF9-EC6C-FA62-6266-28526F06F191" name="Fiksna_nadoknada_Nadoknada_FK">

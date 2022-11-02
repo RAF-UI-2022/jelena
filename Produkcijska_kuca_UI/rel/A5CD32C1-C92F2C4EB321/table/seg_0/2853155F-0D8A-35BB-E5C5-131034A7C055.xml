@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C159BA1A-7803-D5D2-41D7-130445EBB474" name="Nadoknada">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2853155F-0D8A-35BB-E5C5-131034A7C055" name="Tip_Dogadjaja">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:37:25 UTC</createdTime>
+<createdTime>2022-11-02 10:41:04 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_22</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nadoknada_id" id="02FB79E2-5157-7417-5353-8D57E9D997E9">
+<Column name="tip_dogadjaja_id" id="37A8F904-6592-2AA9-1313-D37EA5C02EB8">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:39:40 UTC</createdTime>
+<createdTime>2022-11-02 10:41:31 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,27 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="iznos" id="9E367131-C467-C5D1-3472-BA3E12BD42DC">
+<Column name="naziv_tipa" id="D4FB8CB3-15CE-7CA1-6553-B7C8C80D45EA">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:40:07 UTC</createdTime>
+<createdTime>2022-11-02 10:41:31 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C3363C8-F90D-DC68-AFD8-A40F4BA2F848" name="Nadoknada_PK">
+<ind_PK_UK id="3C9E0CD5-7F85-3ACF-3B78-361C118EC636" name="Tip_Dogadjaja_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:39:40 UTC</createdTime>
+<createdTime>2022-11-02 10:41:31 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
+<colUsage columnID="37A8F904-6592-2AA9-1313-D37EA5C02EB8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

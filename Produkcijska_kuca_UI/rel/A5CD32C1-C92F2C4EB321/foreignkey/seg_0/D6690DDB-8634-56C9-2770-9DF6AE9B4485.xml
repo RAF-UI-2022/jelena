@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6690DDB-8634-56C9-2770-9DF6AE9B4485" containerWithKeyObject="B64E0E74-5D79-0415-60BA-40F060E776C1" localFKIndex="EB6E53E7-6678-8AA2-CD18-F79C9F1BBF7E" name="Televizija_Nadoknada_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:00:33 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Nadoknada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C159BA1A-7803-D5D2-41D7-130445EBB474</referredTableID>
+<keyObject>3C3363C8-F90D-DC68-AFD8-A40F4BA2F848</keyObject>
+<referredKeyID>3C3363C8-F90D-DC68-AFD8-A40F4BA2F848</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nadoknada_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

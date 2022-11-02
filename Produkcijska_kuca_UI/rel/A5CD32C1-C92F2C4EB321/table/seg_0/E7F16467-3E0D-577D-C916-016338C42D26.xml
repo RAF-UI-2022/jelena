@@ -48,6 +48,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Mesto_id_mesto" id="1B9C1EBE-481E-B84A-C953-14405BAA2516">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:30:58 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FE13257-691D-C940-DDF9-D863CCAE8BBB" referredColumn="6D8D75AB-E28B-8D7A-E242-E454C587AF3F"/>
+</associations>
+</Column>
+<Column name="Tip_Dogadjaja_tip_dogadjaja_id" id="6B62C786-68A8-371F-C156-B4B466A16AB2">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:42:00 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3447695B-DCB1-3E9A-8ED2-9697B6179CFB" referredColumn="37A8F904-6592-2AA9-1313-D37EA5C02EB8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E7EC07B6-1FB3-D86D-EF79-FE632A3CE29B" name="Dogadjaj_PK">
@@ -59,6 +87,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39FD02CC-8B99-8875-3CA3-FFD6778C9BF5" name="Dogadjaj_Mesto_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:30:58 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B9C1EBE-481E-B84A-C953-14405BAA2516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="994E0920-1587-FAA5-6B66-AAEFF6BBA17F" name="Dogadjaj_Tip_Dogadjaja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:42:00 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B62C786-68A8-371F-C156-B4B466A16AB2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

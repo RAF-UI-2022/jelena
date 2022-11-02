@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C159BA1A-7803-D5D2-41D7-130445EBB474" name="Nadoknada">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8531C42-B14B-0442-D586-863EADD7DE8D" name="Drzava">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:37:25 UTC</createdTime>
+<createdTime>2022-11-02 10:29:24 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_22</ordsAlias>
+<ordsAlias>table_38</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nadoknada_id" id="02FB79E2-5157-7417-5353-8D57E9D997E9">
+<Column name="drzava_id" id="160D50A3-E2F7-2C9E-AD0F-DFD64FEE5C4C">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:39:40 UTC</createdTime>
+<createdTime>2022-11-02 10:29:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,27 +18,27 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="iznos" id="9E367131-C467-C5D1-3472-BA3E12BD42DC">
+<Column name="naziv_drzave" id="86AB6A72-28B1-045D-BAE6-DC02CF04D381">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:40:07 UTC</createdTime>
+<createdTime>2022-11-02 10:29:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C3363C8-F90D-DC68-AFD8-A40F4BA2F848" name="Nadoknada_PK">
+<ind_PK_UK id="0E760CB2-BDB6-6CE4-BA26-C3E75FD5A792" name="Drzava_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-24 21:39:40 UTC</createdTime>
+<createdTime>2022-11-02 10:29:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
+<colUsage columnID="160D50A3-E2F7-2C9E-AD0F-DFD64FEE5C4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

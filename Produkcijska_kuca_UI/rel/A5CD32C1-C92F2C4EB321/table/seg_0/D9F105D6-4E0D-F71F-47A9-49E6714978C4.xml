@@ -1,57 +1,61 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8280635-2642-D585-FC66-D3982CCE206C" name="Izvodjac">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9F105D6-4E0D-F71F-47A9-49E6714978C4" name="Nadoknada_tipovi">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:52:42 UTC</createdTime>
+<createdTime>2022-11-02 10:44:56 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_22</ordsAlias>
+<ordsAlias>table_40</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="izvodjac_id" id="0395AA03-97D1-0ED6-C8A4-CD1023D4BA8E">
+<Column name="Tip_nadoknade_tip_nadoknade_id" id="949C5236-C78A-D6B4-AD3C-286311A25357">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:52:56 UTC</createdTime>
+<createdTime>2022-11-02 10:51:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEF2B999-514E-D523-9CFB-E464BD4FFBF6" referredColumn="23473E07-E7F2-AE18-5A8B-A312F12E0A4C"/>
+</associations>
 </Column>
-<Column name="klijent_klijent_id" id="666190AA-F0D8-E6BF-A65F-0D3285F3D4F6">
+<Column name="Nadoknada_nadoknada_id" id="ABD03E08-3AF1-8155-87D8-BD6CA6DF96C3">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:53:04 UTC</createdTime>
+<createdTime>2022-11-02 10:51:04 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D45671C3-CAF2-BEAF-F2A0-046F00F46271" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+<colAssociation fkAssociation="E2DAB6A7-23F8-31C5-3CC8-802A98199D9C" referredColumn="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CB5AD131-3ED0-0001-8C94-F406F81B1243" name="Izvodjac_PK">
+<ind_PK_UK id="71552B8F-BFC2-7E07-2226-5F44462F1702" name="Nadoknada_tipovi_Tip_nadoknade_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:52:56 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0395AA03-97D1-0ED6-C8A4-CD1023D4BA8E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="51DA88C8-9F47-EABD-4EA3-B51E7852DCFE" name="Izvodjacv2_Umetnik_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:53:04 UTC</createdTime>
+<createdTime>2022-11-02 10:51:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="666190AA-F0D8-E6BF-A65F-0D3285F3D4F6"/>
+<colUsage columnID="949C5236-C78A-D6B4-AD3C-286311A25357"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1B1EE65-83C0-3187-833A-705DCEE70DA0" name="Nadoknada_tipovi_Nadoknada_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:51:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD03E08-3AF1-8155-87D8-BD6CA6DF96C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="575CB116-1356-B5B7-981E-0F7687EBFCC1" containerWithKeyObject="F1B71D1F-3235-06E6-DE8A-71A22F92D3BD" localFKIndex="0F8340A3-64D9-277F-D3F7-532EAE9C2BA1" name="Plejlista_Digitalna_platforma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:06:39 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Digitalna_platforma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3819819A-4414-032C-A5FB-8DDA39A34B4A</referredTableID>
+<keyObject>53250B20-FF31-7AC3-7B54-F487BE72BFBB</keyObject>
+<referredKeyID>53250B20-FF31-7AC3-7B54-F487BE72BFBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Emitovanje_emitovanje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

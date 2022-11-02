@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="radio_id" id="AAEE3506-93AC-BD22-946E-0A691BEB62B9">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 11:02:11 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="naziv_radija" id="CAFAB9CE-E930-1DAA-8049-9B28D8DA3FBC">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-25 11:02:11 UTC</createdTime>
@@ -42,6 +32,20 @@
 <colAssociation fkAssociation="66365EAE-426A-CFE2-63C7-031315830E67" referredColumn="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F"/>
 </associations>
 </Column>
+<Column name="Nadoknada_nadoknada_id" id="131D774D-2C25-E7A0-695F-A5950D751B0A">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:00:37 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A9CCB2F-DF18-0609-8C06-2AFAA8428461" referredColumn="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="12136D79-BF51-A7FB-3C4F-6EC9A5430FFC" name="Radio_PK">
@@ -52,7 +56,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AAEE3506-93AC-BD22-946E-0A691BEB62B9"/>
+<colUsage columnID="B1D7FF5A-63D8-5059-1B48-40F49292E132"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="443C30B8-E6B0-CF26-B0A1-65D89D595AC3" name="Radio_Emitovanje_FK">
@@ -63,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B1D7FF5A-63D8-5059-1B48-40F49292E132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="160DB9B1-0ABD-AB0D-1A7A-90ACD032358E" name="Radio_Nadoknada_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:00:37 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="131D774D-2C25-E7A0-695F-A5950D751B0A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

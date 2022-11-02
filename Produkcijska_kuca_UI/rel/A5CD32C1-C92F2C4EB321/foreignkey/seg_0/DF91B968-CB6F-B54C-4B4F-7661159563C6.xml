@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF91B968-CB6F-B54C-4B4F-7661159563C6" containerWithKeyObject="FE64ACD9-4CDD-0CF6-749B-B9E93DDB39BC" localFKIndex="19A93028-15D0-61B9-F2BE-D62A00D78596" name="Pesma_u_plejlisti_Plejlista_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:07:47 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Plejlista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1B71D1F-3235-06E6-DE8A-71A22F92D3BD</referredTableID>
+<keyObject>E8871362-D12A-85E8-5DFB-BB4679B5BE34</keyObject>
+<referredKeyID>E8871362-D12A-85E8-5DFB-BB4679B5BE34</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>plejlista_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

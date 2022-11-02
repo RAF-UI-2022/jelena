@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FE13257-691D-C940-DDF9-D863CCAE8BBB" containerWithKeyObject="E7F16467-3E0D-577D-C916-016338C42D26" localFKIndex="39FD02CC-8B99-8875-3CA3-FFD6778C9BF5" name="Dogadjaj_Mesto_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:30:58 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Mesto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36DEF10C-B087-50CF-283A-C1DB6B5DB2C5</referredTableID>
+<keyObject>DE28CC15-5F89-D143-5D92-B7E568F8E1DB</keyObject>
+<referredKeyID>DE28CC15-5F89-D143-5D92-B7E568F8E1DB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

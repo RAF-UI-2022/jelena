@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8669F7C-589A-7976-A520-76FAC1E0D979" containerWithKeyObject="C159BA1A-7803-D5D2-41D7-130445EBB474" localFKIndex="863149F9-597A-3ADC-3AFA-24D472425693" name="Nadoknada_Tip_nadoknade_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEF2B999-514E-D523-9CFB-E464BD4FFBF6" containerWithKeyObject="D9F105D6-4E0D-F71F-47A9-49E6714978C4" localFKIndex="71552B8F-BFC2-7E07-2226-5F44462F1702" name="Nadoknada_tipovi_Tip_nadoknade_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 09:58:17 UTC</createdTime>
+<createdTime>2022-11-02 10:51:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <referredTableLongName>Tip_nadoknade</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

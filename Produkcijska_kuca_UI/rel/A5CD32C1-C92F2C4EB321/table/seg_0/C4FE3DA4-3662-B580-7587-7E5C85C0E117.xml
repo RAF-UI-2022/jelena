@@ -43,6 +43,17 @@
 <colAssociation fkAssociation="0A7D28C2-74F9-260B-0F5C-DA0510D5BE6D" referredColumn="5647D96C-0C07-DC78-3B7E-19C93075DF4D"/>
 </associations>
 </Column>
+<Column name="trajanje_pesme" id="DA17822D-3AAC-F1A2-4417-373CE0CA0169">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:11:49 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="48E912CD-5411-FB9A-78C1-9EA50B961C52" name="Pesma_PK">

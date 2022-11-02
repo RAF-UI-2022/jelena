@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3447695B-DCB1-3E9A-8ED2-9697B6179CFB" containerWithKeyObject="E7F16467-3E0D-577D-C916-016338C42D26" localFKIndex="994E0920-1587-FAA5-6B66-AAEFF6BBA17F" name="Dogadjaj_Tip_Dogadjaja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:42:00 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Tip_Dogadjaja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2853155F-0D8A-35BB-E5C5-131034A7C055</referredTableID>
+<keyObject>3C9E0CD5-7F85-3ACF-3B78-361C118EC636</keyObject>
+<referredKeyID>3C9E0CD5-7F85-3ACF-3B78-361C118EC636</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_dogadjaja_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

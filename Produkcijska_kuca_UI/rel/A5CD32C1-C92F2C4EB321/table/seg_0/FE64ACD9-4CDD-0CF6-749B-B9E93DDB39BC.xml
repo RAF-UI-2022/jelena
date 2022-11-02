@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F27B8F4C-8C58-28A0-A3C4-E1B44D8B6FDE" name="Publisher_Ugovor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE64ACD9-4CDD-0CF6-749B-B9E93DDB39BC" name="Pesma_u_plejlisti">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:02:49 UTC</createdTime>
+<createdTime>2022-11-02 11:07:27 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_9</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="publisher_ugovor_id" id="52192FD5-8A39-EB77-3C44-04167156C8A8">
+<Column name="Pesma_pesma_id" id="36ED1031-9B1C-AC4C-6DA1-CEB0608A97DE">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:14 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Ugovor_ugovor_id" id="CE33A413-5253-EA80-1A09-D4CCE809230D">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:21:31 UTC</createdTime>
+<createdTime>2022-11-02 11:07:42 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CFEA132A-0636-222F-89FA-BA38784E7A7C" referredColumn="93B0958C-FEEB-8E9B-FD6B-C25BAE074311"/>
+<colAssociation fkAssociation="0B1E11E2-A301-767E-FA8B-1742FB1DF23A" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
+</associations>
+</Column>
+<Column name="Plejlista_plejlista_id" id="31291218-30CE-7D84-94EA-065B2EE00421">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:07:47 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF91B968-CB6F-B54C-4B4F-7661159563C6" referredColumn="468246F1-CD9B-D0EB-46D9-504F0FF614B2"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="64B11C64-E44D-B729-B775-7348AD85E581" name="Ugovor_PKv3">
+<ind_PK_UK id="B086794A-3B7D-78B5-686C-934BD8B8DB76" name="Pesma_u_plejlisti_Pesma_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:14 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="52192FD5-8A39-EB77-3C44-04167156C8A8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CA124D77-EA99-3993-D974-4DEC7518AA78" name="Publisher_Ugovor_Ugovor_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:21:31 UTC</createdTime>
+<createdTime>2022-11-02 11:07:42 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CE33A413-5253-EA80-1A09-D4CCE809230D"/>
+<colUsage columnID="36ED1031-9B1C-AC4C-6DA1-CEB0608A97DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19A93028-15D0-61B9-F2BE-D62A00D78596" name="Pesma_u_plejlisti_Plejlista_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:07:47 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31291218-30CE-7D84-94EA-065B2EE00421"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

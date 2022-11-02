@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="digitalna_platforma_id" id="551676CB-AAFD-67EC-14CA-0D1E53122785">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:57:09 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="naziv" id="E5B4890B-CA5E-F5F7-D0F5-DD5BCA907C48">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-25 10:57:09 UTC</createdTime>
@@ -43,6 +33,20 @@
 <colAssociation fkAssociation="DBC546AA-1B02-E729-13D9-F13258B6CB91" referredColumn="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F"/>
 </associations>
 </Column>
+<Column name="Nadoknada_nadoknada_id" id="FF8862E5-E3C6-0E4E-21EA-C182C0853CAA">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:00:41 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52B158B2-18C6-AC69-E3ED-2E28A705B765" referredColumn="02FB79E2-5157-7417-5353-8D57E9D997E9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="53250B20-FF31-7AC3-7B54-F487BE72BFBB" name="Digitalna_platforma_PK">
@@ -53,7 +57,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="551676CB-AAFD-67EC-14CA-0D1E53122785"/>
+<colUsage columnID="27A9C5AB-35D7-D1D5-46CF-4C590D603BDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D141BB53-BEB7-6206-51E1-8439DB724B10" name="Digitalna_platforma_Emitovanje_FK">
@@ -64,6 +68,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="27A9C5AB-35D7-D1D5-46CF-4C590D603BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AEEF8EA-0515-F474-B636-72CBCA160E0C" name="Digitalna_platforma_Nadoknada_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 11:00:41 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF8862E5-E3C6-0E4E-21EA-C182C0853CAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

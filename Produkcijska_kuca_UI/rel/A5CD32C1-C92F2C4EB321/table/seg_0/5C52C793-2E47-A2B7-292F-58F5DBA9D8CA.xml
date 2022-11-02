@@ -28,9 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E1CB948E-196F-77BA-0A67-7BD1CE7E4000" referredColumn="00502B5C-60CD-8EED-5BF0-A9B0AAB96955"/>
-</associations>
 </Column>
 <Column name="Kompanija_partner_id" id="D6F3DA2A-3687-6F61-394C-D06A3715E862">
 <createdBy>Jelena</createdBy>
@@ -56,6 +53,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Ugovor_ugovor_id" id="F5826FEC-8E0C-4E72-65C8-CBC61C685824">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:17:25 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24E8BEBB-EE8C-C942-5826-C3B342F95259" referredColumn="93B0958C-FEEB-8E9B-FD6B-C25BAE074311"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4590D752-5657-B1FB-C50B-92DA01D8664C" name="Potpisivanje_komercijalnog_ugovora_PK">
@@ -69,16 +80,6 @@
 <colUsage columnID="1C95AAFD-556B-AF20-FF2A-217A0E367FD7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="087F7B19-E8F8-F6B5-61E2-6EB204F67525" name="Potpisivanje_kom_ugovora_Komercijalni_ugovor_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:32:41 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="194E7D60-9502-F3F9-B0F4-B66B985BC67A"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="77318207-6149-3B7F-8607-60B06809580F" name="Potpisivanje_kom_ugovora_Kompanija_partner_FK">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-25 10:33:07 UTC</createdTime>
@@ -87,6 +88,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D6F3DA2A-3687-6F61-394C-D06A3715E862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91306872-128C-1F73-35B2-1B729A8614A6" name="Potpisivanje_kom_ugovora_Ugovor_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-02 10:17:25 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5826FEC-8E0C-4E72-65C8-CBC61C685824"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
