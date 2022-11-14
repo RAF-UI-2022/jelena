@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64CB9FF5-FE33-179F-F68A-38368B0A1CFD" name="MultiDayKarta">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:47:15 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dani" id="7441B081-3E20-97BC-E88D-2FD19A3DBDEE">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:51:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Treba da se doda CHECK constraint u implementaciji. Jer dani ne sme biti veci od broja dana koliko traje Dogadjaj i ne bi trebalo da bude manji od 2.]]></commentInRDBMS>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Karta_id" id="3B9444D9-F80E-DDE2-9DCA-82F130DC3994">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:51:40 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19D47F2F-20F3-93C2-E6C5-C7B0B4FFC990" referredColumn="B8433E29-4576-B9A4-4897-C7B989423469"/>
+</associations>
+</Column>
+<Column name="Dogadjaj_dogadjaj_id" id="CDADE0B2-8539-FDB5-9B5B-6230AD10E73E">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:54:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB53E4B7-DC91-3148-D70B-C9EF2A7DB765" referredColumn="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A1E40B0-CF3C-0347-48DF-036A9D887CCB" name="MultiDayKarta_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:47:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9444D9-F80E-DDE2-9DCA-82F130DC3994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72DB554C-25FE-B266-71D3-0DF84511DD8D" name="MultiDayKarta_Karta_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:51:40 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9444D9-F80E-DDE2-9DCA-82F130DC3994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECE0663C-3740-795E-F222-F6C759F8908A" name="MultiDayKarta_Dogadjaj_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:54:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDADE0B2-8539-FDB5-9B5B-6230AD10E73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

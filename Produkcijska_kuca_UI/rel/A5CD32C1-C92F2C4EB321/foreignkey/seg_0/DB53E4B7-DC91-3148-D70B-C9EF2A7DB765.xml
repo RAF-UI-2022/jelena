@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB53E4B7-DC91-3148-D70B-C9EF2A7DB765" containerWithKeyObject="64CB9FF5-FE33-179F-F68A-38368B0A1CFD" localFKIndex="ECE0663C-3740-795E-F222-F6C759F8908A" name="MultiDayKarta_Dogadjaj_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:54:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Dogadjaj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7F16467-3E0D-577D-C916-016338C42D26</referredTableID>
+<keyObject>E7EC07B6-1FB3-D86D-EF79-FE632A3CE29B</keyObject>
+<referredKeyID>E7EC07B6-1FB3-D86D-EF79-FE632A3CE29B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dogadjaj_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

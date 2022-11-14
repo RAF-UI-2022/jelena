@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9A9EE8A-57F2-0BC9-7205-860093D12807" name="Kupljena_Karta">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:32:27 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kupljena_karta_id" id="3487AFDC-82FB-B6FA-645C-EEFC9B36FBF2">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:34:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kupovine" id="22A84D62-3E0D-656D-50BA-7082BC528741">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:34:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Karta_karta_id" id="F1923AD0-CC8B-70B7-5FE3-A455DC1FF8D3">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:36:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2D008D8-8DBF-3EFB-37A1-EA738EB9D966" referredColumn="B8433E29-4576-B9A4-4897-C7B989423469"/>
+</associations>
+</Column>
+<Column name="Kupac_kupac_id" id="C12A6285-9CD8-2F0E-EFE3-0CC4F11EBD63">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:36:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABECA10D-50D9-FD5A-494A-CB6981E6C233" referredColumn="A235BFE5-84E1-2174-FDC3-BAAB83BB68AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B3A374F-E7B3-74D9-0157-A4CEE5038E36" name="Kupljena_Karta_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:34:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3487AFDC-82FB-B6FA-645C-EEFC9B36FBF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E59F999-E124-07F3-FDF0-662B55D4BBA2" name="Kupljena_Karta_Karta_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:36:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1923AD0-CC8B-70B7-5FE3-A455DC1FF8D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F20B109D-9047-7938-3917-1324C9858A44" name="Kupljena_Karta_Kupac_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:36:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C12A6285-9CD8-2F0E-EFE3-0CC4F11EBD63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

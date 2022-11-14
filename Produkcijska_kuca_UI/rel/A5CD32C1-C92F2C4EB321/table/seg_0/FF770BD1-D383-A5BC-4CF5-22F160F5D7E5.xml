@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE64ACD9-4CDD-0CF6-749B-B9E93DDB39BC" name="Pesma_u_plejlisti">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF770BD1-D383-A5BC-4CF5-22F160F5D7E5" name="Koncerti_Tokom_Turneje">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 11:07:27 UTC</createdTime>
+<createdTime>2022-11-13 20:01:01 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_44</ordsAlias>
+<ordsAlias>table_46</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Pesma_pesma_id" id="36ED1031-9B1C-AC4C-6DA1-CEB0608A97DE">
+<Column name="Koncert_koncert_id" id="8D154222-BA11-E48F-204E-32E27E92CBC2">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 11:07:42 UTC</createdTime>
+<createdTime>2022-11-13 20:09:50 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0B1E11E2-A301-767E-FA8B-1742FB1DF23A" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
+<colAssociation fkAssociation="7337257D-F9FF-F19A-3E50-8F96009EB982" referredColumn="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
 </associations>
 </Column>
-<Column name="Plejlista_plejlista_id" id="31291218-30CE-7D84-94EA-065B2EE00421">
+<Column name="Turneja_turneja_id" id="E4B66BA3-B605-F9BC-50AF-0139C4EBDC9C">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 11:07:47 UTC</createdTime>
+<createdTime>2022-11-13 20:09:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,29 +33,29 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DF91B968-CB6F-B54C-4B4F-7661159563C6" referredColumn="468246F1-CD9B-D0EB-46D9-504F0FF614B2"/>
+<colAssociation fkAssociation="E827AA28-2CD2-C39D-B467-7FD48104203E" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B086794A-3B7D-78B5-686C-934BD8B8DB76" name="Pesma_u_plejlisti_Pesma_FK">
+<ind_PK_UK id="78BE0A0B-59B9-3C09-50C0-7869538281C3" name="Koncerti_Tokom_Turneje_Koncert_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 11:07:42 UTC</createdTime>
+<createdTime>2022-11-13 20:09:50 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="36ED1031-9B1C-AC4C-6DA1-CEB0608A97DE"/>
+<colUsage columnID="8D154222-BA11-E48F-204E-32E27E92CBC2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19A93028-15D0-61B9-F2BE-D62A00D78596" name="Pesma_u_plejlisti_Plejlista_FK">
+<ind_PK_UK id="9420EE0E-6ECD-67B4-A939-3E0C47E777E4" name="Koncerti_Tokom_Turneje_Turneja_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 11:07:47 UTC</createdTime>
+<createdTime>2022-11-13 20:09:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="31291218-30CE-7D84-94EA-065B2EE00421"/>
+<colUsage columnID="E4B66BA3-B605-F9BC-50AF-0139C4EBDC9C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

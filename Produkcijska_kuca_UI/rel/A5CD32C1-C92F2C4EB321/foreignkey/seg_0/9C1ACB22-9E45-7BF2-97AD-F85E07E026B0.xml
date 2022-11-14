@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C1ACB22-9E45-7BF2-97AD-F85E07E026B0" containerWithKeyObject="41243CA3-BAD4-23FC-F4B5-D1D31AF88F1D" localFKIndex="535443DD-30C8-01D2-2198-A5D3A564D9EC" name="Karta_Sediste_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:30:30 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Sediste</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>205578D2-4B9D-46FF-5886-B862B0938E69</referredTableID>
+<keyObject>5FD58D2E-3685-E822-FE3A-59B700BC21B5</keyObject>
+<referredKeyID>5FD58D2E-3685-E822-FE3A-59B700BC21B5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>sediste_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8531C42-B14B-0442-D586-863EADD7DE8D" name="Drzava">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61B43BF8-DAF6-0C11-4EFD-88EDEB19D29E" name="Tip_Karte">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:24 UTC</createdTime>
+<createdTime>2022-11-13 18:30:41 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_38</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="drzava_id" id="160D50A3-E2F7-2C9E-AD0F-DFD64FEE5C4C">
+<Column name="tip_karte_id" id="F04A755A-3111-0651-521F-8B94AA32B4FA">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:53 UTC</createdTime>
+<createdTime>2022-11-13 18:30:58 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv_drzave" id="86AB6A72-28B1-045D-BAE6-DC02CF04D381">
+<Column name="tip_karte_naziv" id="D966ED58-0C77-AB1E-B22E-4113C0358F8F">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:53 UTC</createdTime>
+<createdTime>2022-11-13 18:31:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,15 +30,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0E760CB2-BDB6-6CE4-BA26-C3E75FD5A792" name="Drzava_PK">
+<ind_PK_UK id="A19D5309-C715-9B2E-92D5-9879B7D2E345" name="Tip_Karte_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:53 UTC</createdTime>
+<createdTime>2022-11-13 18:30:58 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="160D50A3-E2F7-2C9E-AD0F-DFD64FEE5C4C"/>
+<colUsage columnID="F04A755A-3111-0651-521F-8B94AA32B4FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

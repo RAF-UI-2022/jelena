@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="927DD7A8-60C6-A1F2-AAB5-27AFEA80D322" containerWithKeyObject="9716C8B8-C5C5-CAC8-E01B-BC52A50F87C2" localFKIndex="B1D08FF7-4548-2C51-225D-307B85D871AF" name="Ucesnik_na_turneji_Turneja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:55:03 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Turneja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45734B8E-E1B6-CFA8-852F-75FED8C29338</referredTableID>
+<keyObject>8D26E586-6034-6EAC-5472-2950E11F2134</keyObject>
+<referredKeyID>8D26E586-6034-6EAC-5472-2950E11F2134</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>turneja_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

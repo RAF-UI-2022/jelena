@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9716C8B8-C5C5-CAC8-E01B-BC52A50F87C2" name="Ucesnik_na_turneji">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:54:40 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ucesnik_ucesnik_id" id="4BAC5B37-0B1C-65D7-F35D-23B50D7051DF">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:54:59 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C19305C-7C46-2EEE-595D-A8B8A75BE39C" referredColumn="86A95DA3-4226-35AC-8873-FD48140F0647"/>
+</associations>
+</Column>
+<Column name="Turneja_turneja_id" id="26C85253-3D61-8606-784B-123E10A8960E">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:55:03 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="927DD7A8-60C6-A1F2-AAB5-27AFEA80D322" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C229848-AEC1-18A8-9C00-00FDF55262FB" name="Ucesnik_na_turneji_Ucesnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:54:59 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAC5B37-0B1C-65D7-F35D-23B50D7051DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1D08FF7-4548-2C51-225D-307B85D871AF" name="Ucesnik_na_turneji_Turneja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:55:03 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C85253-3D61-8606-784B-123E10A8960E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

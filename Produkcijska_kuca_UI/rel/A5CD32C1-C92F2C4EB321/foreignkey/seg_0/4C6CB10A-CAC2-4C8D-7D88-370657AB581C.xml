@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C6CB10A-CAC2-4C8D-7D88-370657AB581C" containerWithKeyObject="41243CA3-BAD4-23FC-F4B5-D1D31AF88F1D" localFKIndex="465B4473-CBA8-62AF-5589-96F3BA6CDEE9" name="Karta_Koncert_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 18:31:58 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Koncert</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE</referredTableID>
+<keyObject>D079D4A3-49A4-44BF-286C-4B936C458F0B</keyObject>
+<referredKeyID>D079D4A3-49A4-44BF-286C-4B936C458F0B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>koncert_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

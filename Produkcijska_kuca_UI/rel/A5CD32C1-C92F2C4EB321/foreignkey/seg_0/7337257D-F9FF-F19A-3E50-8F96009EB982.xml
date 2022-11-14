@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7337257D-F9FF-F19A-3E50-8F96009EB982" containerWithKeyObject="FF770BD1-D383-A5BC-4CF5-22F160F5D7E5" localFKIndex="78BE0A0B-59B9-3C09-50C0-7869538281C3" name="Koncerti_Tokom_Turneje_Koncert_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 20:09:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Koncert</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE</referredTableID>
+<keyObject>D079D4A3-49A4-44BF-286C-4B936C458F0B</keyObject>
+<referredKeyID>D079D4A3-49A4-44BF-286C-4B936C458F0B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>koncert_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

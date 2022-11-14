@@ -16,67 +16,11 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="188E1B8E-6F1E-0C60-E922-D90B8925D873" otype="Table" vid="80099408-6719-2345-C543-AD0870E147A1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1732" y="444" width="170" height="114"/>
+<bounds x="1754" y="1114" width="170" height="115"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1C3F051D-9763-D46C-2471-CCC56FD6E748" otype="Table" vid="180BCE1A-68CB-4DFD-6B9E-B3B8EB0D7E87">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2609" y="183" width="170" height="110"/>
-<useCustomFormat>true</useCustomFormat>
-<useDefaultColor>false</useDefaultColor>
-<backgroundColor>-26113</backgroundColor>
-<foregroundColor>-16776961</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Title</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>1</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Column</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>2</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Datatype</foType>
-<colorRGB>-16744448</colorRGB>
-<foTypeID>5</foTypeID>
-</FontObject>
-<FontObject>
-<foType>PK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>7</foTypeID>
-</FontObject>
-<FontObject>
-<foType>FK Element</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>8</foTypeID>
-</FontObject>
-<FontObject>
-<foType>UK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>9</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Not Null</foType>
-<colorRGB>-65536</colorRGB>
-<foTypeID>10</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Key</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>6</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Comments</foType>
-<colorRGB>-12566464</colorRGB>
-<foTypeID>28</foTypeID>
-</FontObject>
-</fonts>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="21542813-CE6E-C42B-984A-5114ECCB9680" otype="Table" vid="5666BD20-C551-532B-76D9-BA6EF8DEA8A1">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2202" y="518" width="170" height="111"/>
+<bounds x="2754" y="876" width="170" height="111"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -130,12 +74,82 @@
 </FontObject>
 </fonts>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2853155F-0D8A-35BB-E5C5-131034A7C055" otype="Table" vid="F7B6DACE-8340-E02A-6BC6-28D33042EAE2">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="205578D2-4B9D-46FF-5886-B862B0938E69" otype="Table" vid="487E34D0-1A76-99B4-D009-BC437D3011AC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1948" y="0" width="170" height="110"/>
-<useCustomFormat>true</useCustomFormat>
+<bounds x="1295" y="537" width="170" height="110"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="21542813-CE6E-C42B-984A-5114ECCB9680" otype="Table" vid="5666BD20-C551-532B-76D9-BA6EF8DEA8A1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2314" y="1383" width="170" height="112"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-103</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>1</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>2</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+<foTypeID>5</foTypeID>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>7</foTypeID>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>8</foTypeID>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>9</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+<foTypeID>10</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>6</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Comments</foType>
+<colorRGB>-12566464</colorRGB>
+<foTypeID>28</foTypeID>
+</FontObject>
+</fonts>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2505E485-602F-7582-045C-87F52729EB36" otype="Table" vid="20266A38-D6F5-1224-12C9-9389CC2AF443">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1615" y="924" width="170" height="111"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2853155F-0D8A-35BB-E5C5-131034A7C055" otype="Table" vid="F7B6DACE-8340-E02A-6BC6-28D33042EAE2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2389" y="446" width="170" height="111"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-103</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
@@ -188,7 +202,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2B78DBEC-15F5-07CB-836A-7C32209805AD" otype="Table" vid="57ADE2B1-2DEC-12FF-9FD1-66ED74450DCE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1082" y="492" width="170" height="111"/>
+<bounds x="1077" y="1201" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -244,7 +258,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2EC62278-0348-36E8-70C7-6EB335EA6C01" otype="Table" vid="A734D00A-E347-7B29-E8D5-7E8699FB4275">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="247" y="58" width="170" height="111"/>
+<bounds x="242" y="767" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -300,14 +314,14 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="33E05B53-13EC-F6BC-FB25-01FF4A587DEF" otype="Table" vid="C5B9FC30-DCC5-B6E3-FDBB-FB676D65A4D1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2623" y="865" width="170" height="113"/>
+<bounds x="2713" y="1584" width="170" height="114"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="36DEF10C-B087-50CF-283A-C1DB6B5DB2C5" otype="Table" vid="DF2C0D95-3088-F6FA-8B85-4BAE8C5E3A12">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2296" y="309" width="170" height="110"/>
+<bounds x="2500" y="875" width="170" height="111"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
-<backgroundColor>-26113</backgroundColor>
+<backgroundColor>-103</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
@@ -360,7 +374,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3819819A-4414-032C-A5FB-8DDA39A34B4A" otype="Table" vid="36DE0E4E-81EC-C9C3-6FA1-81687FDBDBE1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1843" y="1060" width="170" height="111"/>
+<bounds x="1761" y="1747" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -416,11 +430,81 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE" otype="Table" vid="C7CFC764-E007-34E6-6021-3582ED8A91EE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1926" y="275" width="170" height="112"/>
+<bounds x="1948" y="945" width="230" height="113"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="41243CA3-BAD4-23FC-F4B5-D1D31AF88F1D" otype="Table" vid="3B16099D-3537-5C48-0336-6BF99A560241">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1842" y="737" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="42CB5F05-9539-3229-0398-6A275AB91D36" otype="Table" vid="9E99DB7A-1C73-5148-62F5-6459DFC0BCFB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1409" y="757" width="170" height="111"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>1</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>2</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+<foTypeID>5</foTypeID>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>7</foTypeID>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>8</foTypeID>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+<foTypeID>9</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+<foTypeID>10</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>6</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Comments</foType>
+<colorRGB>-12566464</colorRGB>
+<foTypeID>28</foTypeID>
+</FontObject>
+</fonts>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="45734B8E-E1B6-CFA8-852F-75FED8C29338" otype="Table" vid="8086CDF6-D8FC-20B3-6360-149E708DB24F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2435" y="1114" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="46F275B5-52B3-167B-8AA0-B0082045CBEC" otype="Table" vid="C317DE00-9F86-E08F-4E44-09FCC656E532">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="147" y="1050" width="170" height="111"/>
+<bounds x="142" y="1759" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -476,11 +560,11 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="57B3E640-E404-06B8-C2C3-5860669BB8A4" otype="Table" vid="DF0DA1AF-EAA5-B5E5-20A7-97A28400692D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1371" y="874" width="170" height="112"/>
+<bounds x="1340" y="1489" width="170" height="113"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5C52C793-2E47-A2B7-292F-58F5DBA9D8CA" otype="Table" vid="F71273E7-4A10-7502-CE8C-D4C5235E5C5C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1048" y="834" width="170" height="111"/>
+<bounds x="1020" y="1490" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -536,7 +620,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5D5936C2-5A62-ACC3-4349-D7ADFE2D02B7" otype="Table" vid="2C55245C-FE96-C9FD-1076-17D326704DFC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1567" y="1072" width="170" height="111"/>
+<bounds x="1516" y="1750" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -589,10 +673,17 @@
 <foTypeID>28</foTypeID>
 </FontObject>
 </fonts>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="61B43BF8-DAF6-0C11-4EFD-88EDEB19D29E" otype="Table" vid="37C485B4-98CA-50C8-BC32-84DD80B170A5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1462" y="366" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="63EE3EB0-577B-FB70-BCA8-F260443FF7E6" otype="Table" vid="21AABAC9-52A3-3636-698E-F0DFB1B19276">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1976" y="660" width="170" height="111"/>
+<bounds x="1998" y="1330" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -646,13 +737,20 @@
 </FontObject>
 </fonts>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="64CB9FF5-FE33-179F-F68A-38368B0A1CFD" otype="Table" vid="00ECBC26-CB40-A532-5945-41D98465DB0B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2048" y="555" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="69E87EB4-2953-256C-49C4-DE6AFE9C3679" otype="Table" vid="2B426EF1-11B4-11F2-596F-2D23ED731D55">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1679" y="864" width="170" height="113"/>
+<bounds x="1701" y="1534" width="170" height="114"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6A2903AF-93FF-5864-92D1-ABA28125768F" otype="Table" vid="945CA731-6CBC-763B-D1E2-03F0A861CE85">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="6" y="254" width="170" height="110"/>
+<bounds x="1" y="963" width="170" height="111"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -708,7 +806,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="718489E7-ED9F-58E0-A379-0139462744F6" otype="Table" vid="261FD4A1-33BE-31FA-C25B-2CB5AD7BF84B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="309" y="448" width="170" height="111"/>
+<bounds x="304" y="1157" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -764,7 +862,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8A23F93B-8B1D-0954-7883-A5ABFB93E200" otype="Table" vid="1C5F7993-14BA-9BCF-4441-C8D67AC35F8A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="615" y="783" width="176" height="112"/>
+<bounds x="610" y="1492" width="176" height="113"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -817,16 +915,10 @@
 <foTypeID>28</foTypeID>
 </FontObject>
 </fonts>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="9214AFF6-0C6F-6046-15E1-50CC6F1A1395" otype="Note" vid="73622AB7-2B79-86A4-7A72-945887FD1455">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1111" y="1067" width="149" height="226"/>
-<comment>Kako da povezem televizija, radio, digitalnu platformu sa tim koliko para moze da se dobije po emitovanju?
-Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al bas po samo tom emitovanju?</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="947A0D52-B47B-FA6F-7ADB-FD24CC768766" otype="Table" vid="8AC2ECAD-6C49-217D-A984-D408FDA9331E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="5" y="569" width="170" height="110"/>
+<bounds x="0" y="1278" width="170" height="111"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -880,9 +972,16 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </FontObject>
 </fonts>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9716C8B8-C5C5-CAC8-E01B-BC52A50F87C2" otype="Table" vid="F0CE48A3-BF06-59A9-717B-5A2902BD5123">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2131" y="1174" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-26113</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B64E0E74-5D79-0415-60BA-40F060E776C1" otype="Table" vid="772C33F0-87C0-7FF9-BEBD-7FE5B4FE9350">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1284" y="1036" width="170" height="111"/>
+<bounds x="1227" y="1747" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -938,7 +1037,7 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BA92920C-0576-2CCB-E819-1EB631E6E6D8" otype="Table" vid="4A2A17F1-F63D-3D3C-F25B-941917BCF9E8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2343" y="920" width="170" height="111"/>
+<bounds x="2365" y="1590" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -994,7 +1093,7 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C159BA1A-7803-D5D2-41D7-130445EBB474" otype="Table" vid="F16C5990-D7D6-4FC7-EA44-56E677442A93">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="390" y="737" width="170" height="111"/>
+<bounds x="385" y="1446" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -1050,7 +1149,7 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C159BA1A-7803-D5D2-41D7-130445EBB474" otype="Table" vid="1626E12A-5ADB-7E8E-87CE-CE2B2FB0B197" vnum="1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1536" y="1310" width="170" height="111"/>
+<bounds x="1558" y="1980" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -1106,7 +1205,7 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C1A52DA0-2535-7BF2-EA97-95D24D53E1EA" otype="Table" vid="4A48214E-E000-3C5B-BC3E-1F129B50B3B4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2549" y="1188" width="170" height="111"/>
+<bounds x="2558" y="1803" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -1162,83 +1261,29 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C4FE3DA4-3662-B580-7587-7E5C85C0E117" otype="Table" vid="4EFA7931-9138-17EA-6902-0FC2EEC3E413">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2055" y="855" width="170" height="121"/>
+<bounds x="2077" y="1525" width="170" height="122"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C9FE99F2-3B12-B6F5-066D-CA5EE9BFE134" otype="Table" vid="7184B0B7-E082-6059-5CEE-BB77DEAAE80C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="623" y="569" width="170" height="111"/>
+<bounds x="618" y="1278" width="170" height="112"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CB64292B-F73F-BC42-738F-76A3A19717C0" otype="Table" vid="F80AEEC4-706E-19E8-C76E-5CF49597531A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1610" y="666" width="170" height="114"/>
+<bounds x="1632" y="1336" width="170" height="115"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CCC519D9-4626-45D4-259B-5F3DE0D1B246" otype="Note" vid="7AB0E044-D0D8-3CB8-DFCF-7E5979590AC8">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D6490A3E-91DC-3857-FE62-F63776326D89" otype="Table" vid="5ACA6742-235F-3D51-5783-7D031EB11441">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1749" y="1217" width="265" height="194"/>
-<comment>Da li mogu ovako da povezem? Ispada da su televizija radio i digitalna platforma asocijativne veze za nadoknadu i emitovanje, mozda bih trebalo da napravim dodatne asocijativne veze? Mada mi se cini kao visak</comment>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D8531C42-B14B-0442-D586-863EADD7DE8D" otype="Table" vid="1AD8FBEA-AD73-3058-741F-B933318E76D4">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2593" y="366" width="170" height="110"/>
-<useCustomFormat>true</useCustomFormat>
+<bounds x="2006" y="310" width="170" height="110"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-26113</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Title</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>1</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Column</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>2</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Datatype</foType>
-<colorRGB>-16744448</colorRGB>
-<foTypeID>5</foTypeID>
-</FontObject>
-<FontObject>
-<foType>PK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>7</foTypeID>
-</FontObject>
-<FontObject>
-<foType>FK Element</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>8</foTypeID>
-</FontObject>
-<FontObject>
-<foType>UK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>9</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Not Null</foType>
-<colorRGB>-65536</colorRGB>
-<foTypeID>10</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Key</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>6</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Comments</foType>
-<colorRGB>-12566464</colorRGB>
-<foTypeID>28</foTypeID>
-</FontObject>
-</fonts>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D9F105D6-4E0D-F71F-47A9-49E6714978C4" otype="Table" vid="DC1F2712-89B4-294D-C9DB-7684ABCED4E8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="116" y="748" width="170" height="110"/>
+<bounds x="111" y="1457" width="170" height="111"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
-<backgroundColor>-26113</backgroundColor>
+<backgroundColor>-103</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
@@ -1291,67 +1336,18 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E7F16467-3E0D-577D-C916-016338C42D26" otype="Table" vid="8AB9878C-990D-70A7-E0F6-A6FBEFFE0B3B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2250" y="107" width="170" height="112"/>
+<bounds x="2358" y="662" width="246" height="113"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F1B71D1F-3235-06E6-DE8A-71A22F92D3BD" otype="Table" vid="9A8FAD3A-B4E1-09AA-68C0-06F37B8B4558">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E9A9EE8A-57F2-0BC9-7205-860093D12807" otype="Table" vid="F02A4CD1-560A-1889-CA95-B0695895194E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2125" y="1248" width="170" height="110"/>
-<useCustomFormat>true</useCustomFormat>
+<bounds x="1754" y="456" width="170" height="110"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-26113</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Title</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>1</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Column</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>2</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Datatype</foType>
-<colorRGB>-16744448</colorRGB>
-<foTypeID>5</foTypeID>
-</FontObject>
-<FontObject>
-<foType>PK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>7</foTypeID>
-</FontObject>
-<FontObject>
-<foType>FK Element</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>8</foTypeID>
-</FontObject>
-<FontObject>
-<foType>UK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>9</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Not Null</foType>
-<colorRGB>-65536</colorRGB>
-<foTypeID>10</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Key</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>6</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Comments</foType>
-<colorRGB>-12566464</colorRGB>
-<foTypeID>28</foTypeID>
-</FontObject>
-</fonts>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F5E71BF7-9F0A-9BCB-3284-083AA4743B7B" otype="Table" vid="56916585-54D9-43A2-4202-D81747906780">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="469" y="1035" width="170" height="111"/>
+<bounds x="464" y="1744" width="170" height="112"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-103</backgroundColor>
@@ -1407,63 +1403,14 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FDEC2089-D62D-BF40-AFBF-79F42F0C0BBB" otype="Table" vid="D1ACE000-DD58-16E3-9A83-AFD1DF1F8D05">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2389" y="697" width="170" height="114"/>
+<bounds x="2529" y="1424" width="170" height="115"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FE64ACD9-4CDD-0CF6-749B-B9E93DDB39BC" otype="Table" vid="AC1BA837-AB61-D8FD-B9EC-7F8E58B70FDE">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="FF770BD1-D383-A5BC-4CF5-22F160F5D7E5" otype="Table" vid="E12CB47E-65CD-EBF8-2990-404DA6D1A390">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2126" y="1053" width="170" height="110"/>
-<useCustomFormat>true</useCustomFormat>
+<bounds x="2254" y="984" width="170" height="110"/>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-26113</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Title</foType>
-<fontStyle>1</fontStyle>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>1</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Column</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>2</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Datatype</foType>
-<colorRGB>-16744448</colorRGB>
-<foTypeID>5</foTypeID>
-</FontObject>
-<FontObject>
-<foType>PK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>7</foTypeID>
-</FontObject>
-<FontObject>
-<foType>FK Element</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>8</foTypeID>
-</FontObject>
-<FontObject>
-<foType>UK Element</foType>
-<colorRGB>-16776961</colorRGB>
-<foTypeID>9</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Not Null</foType>
-<colorRGB>-65536</colorRGB>
-<foTypeID>10</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Key</foType>
-<colorRGB>-16777216</colorRGB>
-<foTypeID>6</foTypeID>
-</FontObject>
-<FontObject>
-<foType>Comments</foType>
-<colorRGB>-12566464</colorRGB>
-<foTypeID>28</foTypeID>
-</FontObject>
-</fonts>
 </OView>
 </objectViews>
 <connectors>
@@ -1472,8 +1419,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1882" y="444"/>
-<point x="1947" y="387"/>
+<point x="1914" y="1114"/>
+<point x="1988" y="1058"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0A7D28C2-74F9-260B-0F5C-DA0510D5BE6D" otype="FKIndexAssociation" vid_source="F80AEEC4-706E-19E8-C76E-5CF49597531A" vid_target="4EFA7931-9138-17EA-6902-0FC2EEC3E413">
@@ -1481,17 +1428,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1780" y="759"/>
-<point x="2055" y="878"/>
+<point x="1802" y="1430"/>
+<point x="2077" y="1549"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0B1E11E2-A301-767E-FA8B-1742FB1DF23A" otype="FKIndexAssociation" vid_source="4EFA7931-9138-17EA-6902-0FC2EEC3E413" vid_target="AC1BA837-AB61-D8FD-B9EC-7F8E58B70FDE">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0A984768-A3BF-776D-90BF-CCC9CA2CC992" otype="FKIndexAssociation" vid_source="9E99DB7A-1C73-5148-62F5-6459DFC0BCFB" vid_target="20266A38-D6F5-1224-12C9-9389CC2AF443">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2175" y="976"/>
-<point x="2175" y="1053"/>
+<point x="1562" y="868"/>
+<point x="1646" y="924"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0EB8E2E7-0138-B297-10DA-727E6F866951" otype="FKIndexAssociation" vid_source="4A48214E-E000-3C5B-BC3E-1F129B50B3B4" vid_target="4A2A17F1-F63D-3D3C-F25B-941917BCF9E8">
@@ -1499,8 +1446,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2591" y="1188"/>
-<point x="2470" y="1031"/>
+<point x="2592" y="1803"/>
+<point x="2500" y="1702"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="18B5554C-5AB6-99A0-61B2-9E8C21AD56EC" otype="FKIndexAssociation" vid_source="80099408-6719-2345-C543-AD0870E147A1" vid_target="21AABAC9-52A3-3636-698E-F0DFB1B19276">
@@ -1508,8 +1455,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1881" y="558"/>
-<point x="1997" y="660"/>
+<point x="1904" y="1229"/>
+<point x="2019" y="1330"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="19D47F2F-20F3-93C2-E6C5-C7B0B4FFC990" otype="FKIndexAssociation" vid_source="3B16099D-3537-5C48-0336-6BF99A560241" vid_target="00ECBC26-CB40-A532-5945-41D98465DB0B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1989" y="737"/>
+<point x="2070" y="665"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="1F7C7C36-27C3-42D0-8FBF-38B2E4292492" otype="FKIndexAssociation" vid_source="4EFA7931-9138-17EA-6902-0FC2EEC3E413" vid_target="21AABAC9-52A3-3636-698E-F0DFB1B19276">
@@ -1517,8 +1473,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2100" y="855"/>
-<point x="2100" y="771"/>
+<point x="2122" y="1525"/>
+<point x="2122" y="1442"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="24E8BEBB-EE8C-C942-5826-C3B342F95259" otype="FKIndexAssociation" vid_source="7184B0B7-E082-6059-5CEE-BB77DEAAE80C" vid_target="F71273E7-4A10-7502-CE8C-D4C5235E5C5C">
@@ -1526,8 +1482,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="793" y="677"/>
-<point x="1048" y="836"/>
+<point x="788" y="1378"/>
+<point x="1020" y="1501"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="2B238F60-3511-3140-B028-4D95952E2265" otype="FKIndexAssociation" vid_source="80099408-6719-2345-C543-AD0870E147A1" vid_target="57ADE2B1-2DEC-12FF-9FD1-66ED74450DCE">
@@ -1535,8 +1491,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1732" y="525"/>
-<point x="1252" y="525"/>
+<point x="1754" y="1215"/>
+<point x="1247" y="1215"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="2C19305C-7C46-2EEE-595D-A8B8A75BE39C" otype="FKIndexAssociation" vid_source="21AABAC9-52A3-3636-698E-F0DFB1B19276" vid_target="F0CE48A3-BF06-59A9-717B-5A2902BD5123">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2149" y="1330"/>
+<point x="2149" y="1284"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="3447695B-DCB1-3E9A-8ED2-9697B6179CFB" otype="FKIndexAssociation" vid_source="F7B6DACE-8340-E02A-6BC6-28D33042EAE2" vid_target="8AB9878C-990D-70A7-E0F6-A6FBEFFE0B3B">
@@ -1544,8 +1509,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2118" y="108"/>
-<point x="2250" y="108"/>
+<point x="2474" y="557"/>
+<point x="2474" y="662"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="3A9CCB2F-DF18-0609-8C06-2AFAA8428461" otype="FKIndexAssociation" vid_source="1626E12A-5ADB-7E8E-87CE-CE2B2FB0B197" vid_target="2C55245C-FE96-C9FD-1076-17D326704DFC">
@@ -1553,8 +1518,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1636" y="1310"/>
-<point x="1636" y="1183"/>
+<point x="1622" y="1980"/>
+<point x="1622" y="1862"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="3FE13257-691D-C940-DDF9-D863CCAE8BBB" otype="FKIndexAssociation" vid_source="DF2C0D95-3088-F6FA-8B85-4BAE8C5E3A12" vid_target="8AB9878C-990D-70A7-E0F6-A6FBEFFE0B3B">
@@ -1562,8 +1527,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2373" y="309"/>
-<point x="2373" y="219"/>
+<point x="2552" y="875"/>
+<point x="2552" y="775"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="479056E8-0C54-6A8C-27FB-101FE02F67F5" otype="FKIndexAssociation" vid_source="7184B0B7-E082-6059-5CEE-BB77DEAAE80C" vid_target="261FD4A1-33BE-31FA-C25B-2CB5AD7BF84B">
@@ -1571,8 +1536,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="623" y="591"/>
-<point x="479" y="536"/>
+<point x="618" y="1301"/>
+<point x="474" y="1245"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="4C6CB10A-CAC2-4C8D-7D88-370657AB581C" otype="FKIndexAssociation" vid_source="C7CFC764-E007-34E6-6021-3582ED8A91EE" vid_target="3B16099D-3537-5C48-0336-6BF99A560241">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1980" y="945"/>
+<point x="1980" y="847"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="4C98703E-0B39-8EAA-F932-F7347D706237" otype="FKIndexAssociation" vid_source="2B426EF1-11B4-11F2-596F-2D23ED731D55" vid_target="772C33F0-87C0-7FF9-BEBD-7FE5B4FE9350">
@@ -1580,8 +1554,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1679" y="957"/>
-<point x="1454" y="1054"/>
+<point x="1701" y="1629"/>
+<point x="1397" y="1764"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="52B158B2-18C6-AC69-E3ED-2E28A705B765" otype="FKIndexAssociation" vid_source="1626E12A-5ADB-7E8E-87CE-CE2B2FB0B197" vid_target="36DE0E4E-81EC-C9C3-6FA1-81687FDBDBE1">
@@ -1589,8 +1563,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1689" y="1310"/>
-<point x="1859" y="1171"/>
+<point x="1691" y="1980"/>
+<point x="1797" y="1859"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="53E281D8-5A79-53A8-16E8-BF1DE59D211E" otype="FKIndexAssociation" vid_source="180BCE1A-68CB-4DFD-6B9E-B3B8EB0D7E87" vid_target="DF2C0D95-3088-F6FA-8B85-4BAE8C5E3A12">
@@ -1598,17 +1572,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2609" y="272"/>
-<point x="2466" y="329"/>
+<point x="2754" y="931"/>
+<point x="2670" y="931"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="575CB116-1356-B5B7-981E-0F7687EBFCC1" otype="FKIndexAssociation" vid_source="36DE0E4E-81EC-C9C3-6FA1-81687FDBDBE1" vid_target="9A8FAD3A-B4E1-09AA-68C0-06F37B8B4558">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="58E7B7E1-FF66-FE0D-5EC1-F87FCFF6F02F" otype="FKIndexAssociation" vid_source="80099408-6719-2345-C543-AD0870E147A1" vid_target="20266A38-D6F5-1224-12C9-9389CC2AF443">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2011" y="1171"/>
-<point x="2142" y="1248"/>
+<point x="1769" y="1114"/>
+<point x="1769" y="1035"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="5FCAF7B7-54B6-3C73-D365-50EE5FFA29D7" otype="FKIndexAssociation" vid_source="F16C5990-D7D6-4FC7-EA44-56E677442A93" vid_target="C317DE00-9F86-E08F-4E44-09FCC656E532">
@@ -1616,8 +1590,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="431" y="848"/>
-<point x="275" y="1050"/>
+<point x="426" y="1558"/>
+<point x="270" y="1759"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="66365EAE-426A-CFE2-63C7-031315830E67" otype="FKIndexAssociation" vid_source="2B426EF1-11B4-11F2-596F-2D23ED731D55" vid_target="2C55245C-FE96-C9FD-1076-17D326704DFC">
@@ -1625,8 +1599,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1708" y="977"/>
-<point x="1708" y="1072"/>
+<point x="1736" y="1648"/>
+<point x="1649" y="1750"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6960FA1F-A0AD-B008-B3A7-6F08C700BAE6" otype="FKIndexAssociation" vid_source="DF0DA1AF-EAA5-B5E5-20A7-97A28400692D" vid_target="F71273E7-4A10-7502-CE8C-D4C5235E5C5C">
@@ -1634,8 +1608,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1371" y="909"/>
-<point x="1218" y="909"/>
+<point x="1340" y="1546"/>
+<point x="1190" y="1546"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="69CE7D59-4FA3-DC22-FBD1-62BAD01D53CD" otype="FKIndexAssociation" vid_source="C7CFC764-E007-34E6-6021-3582ED8A91EE" vid_target="20266A38-D6F5-1224-12C9-9389CC2AF443">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1948" y="990"/>
+<point x="1785" y="990"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6B5E43CC-C985-F0A8-356D-DEDFD918FC41" otype="FKIndexAssociation" vid_source="7184B0B7-E082-6059-5CEE-BB77DEAAE80C" vid_target="57ADE2B1-2DEC-12FF-9FD1-66ED74450DCE">
@@ -1643,8 +1626,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="793" y="586"/>
-<point x="1082" y="586"/>
+<point x="788" y="1295"/>
+<point x="1077" y="1295"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7337257D-F9FF-F19A-3E50-8F96009EB982" otype="FKIndexAssociation" vid_source="C7CFC764-E007-34E6-6021-3582ED8A91EE" vid_target="E12CB47E-65CD-EBF8-2990-404DA6D1A390">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2178" y="1021"/>
+<point x="2254" y="1021"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="80FDF4F6-61B9-4786-739A-1304207B27D2" otype="FKIndexAssociation" vid_source="DF0DA1AF-EAA5-B5E5-20A7-97A28400692D" vid_target="2B426EF1-11B4-11F2-596F-2D23ED731D55">
@@ -1652,8 +1644,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1541" y="925"/>
-<point x="1679" y="925"/>
+<point x="1510" y="1568"/>
+<point x="1701" y="1568"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8CBFFB26-63AF-CEE8-0A02-FA55ABD7957D" otype="FKIndexAssociation" vid_source="8AB9878C-990D-70A7-E0F6-A6FBEFFE0B3B" vid_target="C7CFC764-E007-34E6-6021-3582ED8A91EE">
@@ -1661,8 +1653,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2250" y="207"/>
-<point x="2096" y="286"/>
+<point x="2397" y="775"/>
+<point x="2146" y="945"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8E72B0F1-A26D-1B0C-533E-C4CCFD7ED644" otype="FKIndexAssociation" vid_source="F16C5990-D7D6-4FC7-EA44-56E677442A93" vid_target="7184B0B7-E082-6059-5CEE-BB77DEAAE80C">
@@ -1670,8 +1662,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="551" y="737"/>
-<point x="631" y="680"/>
+<point x="547" y="1446"/>
+<point x="625" y="1390"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="927DD7A8-60C6-A1F2-AAB5-27AFEA80D322" otype="FKIndexAssociation" vid_source="8086CDF6-D8FC-20B3-6360-149E708DB24F" vid_target="F0CE48A3-BF06-59A9-717B-5A2902BD5123">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2435" y="1199"/>
+<point x="2301" y="1199"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9869EE68-9E29-35C2-4302-C76996B1F762" otype="FKIndexAssociation" vid_source="A734D00A-E347-7B29-E8D5-7E8699FB4275" vid_target="945CA731-6CBC-763B-D1E2-03F0A861CE85">
@@ -1679,8 +1680,26 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="263" y="169"/>
-<point x="158" y="254"/>
+<point x="257" y="879"/>
+<point x="154" y="963"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="9C1ACB22-9E45-7BF2-97AD-F85E07E026B0" otype="FKIndexAssociation" vid_source="487E34D0-1A76-99B4-D009-BC437D3011AC" vid_target="3B16099D-3537-5C48-0336-6BF99A560241">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1465" y="623"/>
+<point x="1842" y="760"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="ABECA10D-50D9-FD5A-494A-CB6981E6C233" otype="FKIndexAssociation" vid_source="5ACA6742-235F-3D51-5783-7D031EB11441" vid_target="F02A4CD1-560A-1889-CA95-B0695895194E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2006" y="414"/>
+<point x="1924" y="461"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="AEF2B999-514E-D523-9CFB-E464BD4FFBF6" otype="FKIndexAssociation" vid_source="8AC2ECAD-6C49-217D-A984-D408FDA9331E" vid_target="DC1F2712-89B4-294D-C9DB-7684ABCED4E8">
@@ -1688,8 +1707,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="145" y="679"/>
-<point x="145" y="748"/>
+<point x="140" y="1389"/>
+<point x="140" y="1457"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BF0692D6-1A5D-4AD1-D982-EDED6728987E" otype="FKIndexAssociation" vid_source="1C5F7993-14BA-9BCF-4441-C8D67AC35F8A" vid_target="7184B0B7-E082-6059-5CEE-BB77DEAAE80C">
@@ -1697,8 +1716,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="707" y="783"/>
-<point x="707" y="680"/>
+<point x="702" y="1492"/>
+<point x="702" y="1390"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C113CE0D-8F75-1BE7-953E-BE395BF4468F" otype="FKIndexAssociation" vid_source="37C485B4-98CA-50C8-BC32-84DD80B170A5" vid_target="3B16099D-3537-5C48-0336-6BF99A560241">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1603" y="476"/>
+<point x="1870" y="737"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C6AC4CDC-1EFB-82E3-D172-8F63B1E9A6E6" otype="FKIndexAssociation" vid_source="945CA731-6CBC-763B-D1E2-03F0A861CE85" vid_target="261FD4A1-33BE-31FA-C25B-2CB5AD7BF84B">
@@ -1706,8 +1734,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="176" y="363"/>
-<point x="309" y="448"/>
+<point x="171" y="1073"/>
+<point x="304" y="1158"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CE0CC158-C652-A7F6-AA31-6C3CBAB66742" otype="FKIndexAssociation" vid_source="4EFA7931-9138-17EA-6902-0FC2EEC3E413" vid_target="4A2A17F1-F63D-3D3C-F25B-941917BCF9E8">
@@ -1715,8 +1743,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2225" y="948"/>
-<point x="2343" y="948"/>
+<point x="2247" y="1618"/>
+<point x="2365" y="1618"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="CE7E8CA6-2A5B-7989-F298-6A82F07C5CFA" otype="FKIndexAssociation" vid_source="80099408-6719-2345-C543-AD0870E147A1" vid_target="F80AEEC4-706E-19E8-C76E-5CF49597531A">
@@ -1724,8 +1752,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1756" y="558"/>
-<point x="1756" y="666"/>
+<point x="1778" y="1229"/>
+<point x="1778" y="1336"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D6690DDB-8634-56C9-2770-9DF6AE9B4485" otype="FKIndexAssociation" vid_source="1626E12A-5ADB-7E8E-87CE-CE2B2FB0B197" vid_target="772C33F0-87C0-7FF9-BEBD-7FE5B4FE9350">
@@ -1733,8 +1761,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1569" y="1310"/>
-<point x="1405" y="1147"/>
+<point x="1563" y="1980"/>
+<point x="1391" y="1859"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D7D97471-8995-B928-4929-1BA8F6F83564" otype="FKIndexAssociation" vid_source="4EFA7931-9138-17EA-6902-0FC2EEC3E413" vid_target="D1ACE000-DD58-16E3-9A83-AFD1DF1F8D05">
@@ -1742,8 +1770,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2225" y="874"/>
-<point x="2389" y="795"/>
+<point x="2247" y="1532"/>
+<point x="2529" y="1532"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DB53E4B7-DC91-3148-D70B-C9EF2A7DB765" otype="FKIndexAssociation" vid_source="8AB9878C-990D-70A7-E0F6-A6FBEFFE0B3B" vid_target="00ECBC26-CB40-A532-5945-41D98465DB0B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2358" y="663"/>
+<point x="2218" y="663"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DBC546AA-1B02-E729-13D9-F13258B6CB91" otype="FKIndexAssociation" vid_source="2B426EF1-11B4-11F2-596F-2D23ED731D55" vid_target="36DE0E4E-81EC-C9C3-6FA1-81687FDBDBE1">
@@ -1751,8 +1788,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1846" y="977"/>
-<point x="1846" y="1060"/>
+<point x="1816" y="1648"/>
+<point x="1816" y="1747"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DE7F7AE7-8773-D58B-0A61-284D150F21B8" otype="FKIndexAssociation" vid_source="C5B9FC30-DCC5-B6E3-FDBB-FB676D65A4D1" vid_target="D1ACE000-DD58-16E3-9A83-AFD1DF1F8D05">
@@ -1760,8 +1797,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2629" y="865"/>
-<point x="2553" y="811"/>
+<point x="2732" y="1584"/>
+<point x="2680" y="1539"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DE89AFA7-D231-818E-608A-694372957B97" otype="FKIndexAssociation" vid_source="5666BD20-C551-532B-76D9-BA6EF8DEA8A1" vid_target="21AABAC9-52A3-3636-698E-F0DFB1B19276">
@@ -1769,17 +1806,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2202" y="626"/>
-<point x="2146" y="662"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DF91B968-CB6F-B54C-4B4F-7661159563C6" otype="FKIndexAssociation" vid_source="9A8FAD3A-B4E1-09AA-68C0-06F37B8B4558" vid_target="AC1BA837-AB61-D8FD-B9EC-7F8E58B70FDE">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="2210" y="1248"/>
-<point x="2210" y="1163"/>
+<point x="2314" y="1412"/>
+<point x="2168" y="1412"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E2DAB6A7-23F8-31C5-3CC8-802A98199D9C" otype="FKIndexAssociation" vid_source="F16C5990-D7D6-4FC7-EA44-56E677442A93" vid_target="DC1F2712-89B4-294D-C9DB-7684ABCED4E8">
@@ -1787,8 +1815,8 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="390" y="798"/>
-<point x="286" y="798"/>
+<point x="385" y="1507"/>
+<point x="281" y="1507"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E75D0207-6D84-D766-C27F-BEA13534DC30" otype="FKIndexAssociation" vid_source="F16C5990-D7D6-4FC7-EA44-56E677442A93" vid_target="56916585-54D9-43A2-4202-D81747906780">
@@ -1796,8 +1824,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="514" y="848"/>
-<point x="514" y="1035"/>
+<point x="509" y="1558"/>
+<point x="509" y="1744"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E827AA28-2CD2-C39D-B467-7FD48104203E" otype="FKIndexAssociation" vid_source="8086CDF6-D8FC-20B3-6360-149E708DB24F" vid_target="E12CB47E-65CD-EBF8-2990-404DA6D1A390">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="2443" y="1114"/>
+<point x="2415" y="1094"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="EB12D47C-46F4-36BE-BC88-8D6251BE4EB5" otype="FKIndexAssociation" vid_source="4EFA7931-9138-17EA-6902-0FC2EEC3E413" vid_target="2B426EF1-11B4-11F2-596F-2D23ED731D55">
@@ -1805,17 +1842,17 @@ Sta ako zelim da saznam koliko novca dobijam po pesmi koju okacim na youtube? Al
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2055" y="920"/>
-<point x="1849" y="920"/>
+<point x="2077" y="1590"/>
+<point x="1871" y="1590"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F335311F-2243-E59F-C5BF-F87521669134" otype="FKIndexAssociation" vid_source="1AD8FBEA-AD73-3058-741F-B933318E76D4" vid_target="180BCE1A-68CB-4DFD-6B9E-B3B8EB0D7E87">
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="F2D008D8-8DBF-3EFB-37A1-EA738EB9D966" otype="FKIndexAssociation" vid_source="3B16099D-3537-5C48-0336-6BF99A560241" vid_target="F02A4CD1-560A-1889-CA95-B0695895194E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2701" y="366"/>
-<point x="2701" y="293"/>
+<point x="1883" y="737"/>
+<point x="1883" y="566"/>
 </points>
 </Connector>
 </connectors>

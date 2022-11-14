@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C19305C-7C46-2EEE-595D-A8B8A75BE39C" containerWithKeyObject="9716C8B8-C5C5-CAC8-E01B-BC52A50F87C2" localFKIndex="5C229848-AEC1-18A8-9C00-00FDF55262FB" name="Ucesnik_na_turneji_Ucesnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-11-13 19:54:59 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Ucesnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63EE3EB0-577B-FB70-BCA8-F260443FF7E6</referredTableID>
+<keyObject>CEADA9ED-5D44-6368-C567-CCFC880BAE46</keyObject>
+<referredKeyID>CEADA9ED-5D44-6368-C567-CCFC880BAE46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ucesnik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
