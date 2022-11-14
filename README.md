@@ -1,2 +1,2 @@
 # jelena
-![Produkcijska_kuca.pdf](https://github.com/RAF-UI-2022/jelena/files/10003705/Produkcijska_kuca.pdf)
+![Produkcijska_kuca](https://user-images.githubusercontent.com/92782074/201681221-a80c6de8-d992-4783-a63c-b2c17927753f.png)
