@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18711FF8-8207-54CA-B99B-4338C6E9C0A4" containerWithKeyObject="5B7D6E00-B04E-7EB8-3D6D-09CEECEE3BBD" localFKIndex="58F69EC1-B262-A9FE-A821-4DA88111AF90" name="Karte_preko_distributera_Karta_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:26:17 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Karta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>41243CA3-BAD4-23FC-F4B5-D1D31AF88F1D</referredTableID>
+<keyObject>25FEBE63-868E-CDC2-F965-C2DBF13BDA0F</keyObject>
+<referredKeyID>25FEBE63-868E-CDC2-F965-C2DBF13BDA0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>karta_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

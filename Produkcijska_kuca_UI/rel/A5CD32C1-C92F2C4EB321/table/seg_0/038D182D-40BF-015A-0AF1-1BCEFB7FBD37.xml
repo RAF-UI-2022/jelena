@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69E87EB4-2953-256C-49C4-DE6AFE9C3679" name="Emitovanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="038D182D-40BF-015A-0AF1-1BCEFB7FBD37" name="Redni_broj_nastupa">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:53:59 UTC</createdTime>
+<createdTime>2022-12-14 11:29:43 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_49</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="emitovanje_id" id="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F">
+<Column name="id" id="57FC5205-4457-C3BA-577C-29751DF0B981">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:54:08 UTC</createdTime>
+<createdTime>2022-12-14 11:31:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_emitovanja" id="E4B7CD0C-2DD5-D631-89D8-50885A5F741B">
+<Column name="redni_broj" id="D56F2C75-0A18-8F04-A33A-76C0E3F3489A">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:03:26 UTC</createdTime>
+<createdTime>2022-12-14 11:31:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ko nastupa kada na odredjenom koncertu]]></commentInRDBMS>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kompanija_kompanija_id" id="6F5E6449-439C-C162-954E-533F9C5F242B">
+<Column name="koncertna_uloga_id" id="9883959B-53C3-31D2-C75B-878BC5B87F30">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:23:41 UTC</createdTime>
+<createdTime>2022-12-14 11:31:14 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,30 +40,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="80FDF4F6-61B9-4786-739A-1304207B27D2" referredColumn="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D"/>
+<colAssociation fkAssociation="169BF9D2-3EA7-7626-AEAE-0A7D2765A444" referredColumn="A948B215-8625-68C5-CD47-8B759CA96AC8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5658F462-70F5-0283-DA9E-74157750DA89" name="Emitovanje_PK">
+<ind_PK_UK id="F6CB4A55-A857-0389-2BD7-0AED76BF3F55" name="Redni_broj_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:54:16 UTC</createdTime>
+<createdTime>2022-12-14 11:31:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F"/>
+<colUsage columnID="57FC5205-4457-C3BA-577C-29751DF0B981"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="758769E9-E1CB-DE9C-1DFD-F4AA7323D101" name="Emitovanje_Kompanija_FK">
+<ind_PK_UK id="4B9C5C5E-5463-6C68-C4BA-3DC206E80C1C" name="Redni_broj_koncertna_uloga_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:23:41 UTC</createdTime>
+<createdTime>2022-12-14 11:31:14 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6F5E6449-439C-C162-954E-533F9C5F242B"/>
+<colUsage columnID="9883959B-53C3-31D2-C75B-878BC5B87F30"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

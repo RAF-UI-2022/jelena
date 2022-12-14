@@ -1,36 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69E87EB4-2953-256C-49C4-DE6AFE9C3679" name="Emitovanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA73133-EFB2-4C02-F9F4-B90798964D3A" name="emitovanje_pesme">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:53:59 UTC</createdTime>
+<createdTime>2022-12-14 11:51:55 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_51</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="emitovanje_id" id="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F">
+<Column name="Emitovanje_emitovanje_id" id="8CA53729-5F80-E8B4-46C1-DE062F66A1BD">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:54:08 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="datum_emitovanja" id="E4B7CD0C-2DD5-D631-89D8-50885A5F741B">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:03:26 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Kompanija_kompanija_id" id="6F5E6449-439C-C162-954E-533F9C5F242B">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:23:41 UTC</createdTime>
+<createdTime>2022-12-14 11:52:20 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,30 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="80FDF4F6-61B9-4786-739A-1304207B27D2" referredColumn="B377A9EF-CFCD-BCBA-E0A9-6E1626040D1D"/>
+<colAssociation fkAssociation="0CA4C269-177C-799B-E4B3-28258F4C4FE4" referredColumn="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F"/>
+</associations>
+</Column>
+<Column name="Pesma_pesma_id" id="34FE4385-228B-906C-731B-4F6ED6AF215D">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:52:24 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70161F0C-5C5A-0A36-3A3B-E064EED2AE3D" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5658F462-70F5-0283-DA9E-74157750DA89" name="Emitovanje_PK">
+<ind_PK_UK id="AD4B8E0C-DFB1-9349-F6B6-8E79C092E507" name="emitovanje_pesme_Emitovanje_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:54:16 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B02D2B9E-9FF1-F46F-0D36-478C9ACC479F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="758769E9-E1CB-DE9C-1DFD-F4AA7323D101" name="Emitovanje_Kompanija_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:23:41 UTC</createdTime>
+<createdTime>2022-12-14 11:52:20 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6F5E6449-439C-C162-954E-533F9C5F242B"/>
+<colUsage columnID="8CA53729-5F80-E8B4-46C1-DE062F66A1BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DDD4E7E-2020-B796-84C3-525840650C84" name="emitovanje_pesme_Pesma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:52:24 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FE4385-228B-906C-731B-4F6ED6AF215D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

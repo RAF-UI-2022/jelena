@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="169BF9D2-3EA7-7626-AEAE-0A7D2765A444" containerWithKeyObject="038D182D-40BF-015A-0AF1-1BCEFB7FBD37" localFKIndex="4B9C5C5E-5463-6C68-C4BA-3DC206E80C1C" name="Redni_broj_koncertna_uloga_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:31:14 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>koncertna_uloga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2505E485-602F-7582-045C-87F52729EB36</referredTableID>
+<keyObject>097C9111-86FB-48E8-26B7-14C58AE77109</keyObject>
+<referredKeyID>097C9111-86FB-48E8-26B7-14C58AE77109</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>koncertna_uloga_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

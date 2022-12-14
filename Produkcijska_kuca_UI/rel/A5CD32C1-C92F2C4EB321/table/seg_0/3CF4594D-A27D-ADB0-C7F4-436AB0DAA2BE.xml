@@ -18,19 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Klijent_klijent_id" id="0AE05F7F-A0C9-9D79-2550-E0EFD9D0806E">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:50 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="064119CF-221D-87C7-FB8F-33106A05B15C" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
-</associations>
-</Column>
 <Column name="Dogadjaj_dogadjaj_id" id="FED0B614-2C27-73D4-C548-474E17549CB4">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-18 10:27:57 UTC</createdTime>
@@ -78,6 +65,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Turneja_turneja_id" id="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:21:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FCCE7A4-15E3-22EA-27EF-1C3DFC42C771" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
+</associations>
+</Column>
+<Column name="Ucesnik_ucesnik_id" id="7CCB9CF1-56A8-B195-FE16-D3907FC27492">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:41:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="886BCC37-60A2-8679-FC8F-4CCCE4D4B68F" referredColumn="86A95DA3-4226-35AC-8873-FD48140F0647"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D079D4A3-49A4-44BF-286C-4B936C458F0B" name="Nastup_PK">
@@ -91,16 +107,6 @@
 <colUsage columnID="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0E01F5E1-A6A5-8EBA-EFEE-2994A7129D67" name="Nastup_Umetnik_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:50 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0AE05F7F-A0C9-9D79-2550-E0EFD9D0806E"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="2D4C5B9B-5415-499D-AA6B-16495F0BD8BD" name="Nastup_Dogadjaj_FK">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-18 10:27:57 UTC</createdTime>
@@ -109,6 +115,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FED0B614-2C27-73D4-C548-474E17549CB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D25F61-B45D-BDC1-9166-75FC25B6D0AA" name="Koncert_Turneja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:21:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98CBE588-192D-10F9-1D38-06C589714546" name="Koncert_Ucesnik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:41:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CCB9CF1-56A8-B195-FE16-D3907FC27492"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

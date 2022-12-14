@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBAC25A8-F3B4-A543-A221-DD054A03D61F" name="Karta_Turneja">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:09:11 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Karta_karta_id" id="9F902F8B-3ACC-8820-462A-003E14C86EE3">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:18:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7CCD3DA-A4DD-2B57-868D-9C6045164D92" referredColumn="B8433E29-4576-B9A4-4897-C7B989423469"/>
+</associations>
+</Column>
+<Column name="Turneja_turneja_id" id="3A8B4A76-EC2C-4348-4B9E-3C95F09E4388">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:38:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FB2D1AD-1BC7-3341-67CF-3FA78F764E2A" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EE0C2C3-8545-CD4D-C90D-DABE8E17AAE3" name="Karta_Turneja_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:15:22 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F902F8B-3ACC-8820-462A-003E14C86EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8480E55-0623-EA87-7980-C6BC3351F468" name="Karta_Turneja_Karta_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:18:04 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F902F8B-3ACC-8820-462A-003E14C86EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9D17EF3-708D-C84E-5CE8-5B46FBB2876A" name="Karta_Turneja_Turneja_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:38:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A8B4A76-EC2C-4348-4B9E-3C95F09E4388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

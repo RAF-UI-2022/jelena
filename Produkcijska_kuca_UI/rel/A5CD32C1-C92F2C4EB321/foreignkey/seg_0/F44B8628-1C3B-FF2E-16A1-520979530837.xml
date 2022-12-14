@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F44B8628-1C3B-FF2E-16A1-520979530837" containerWithKeyObject="5B7D6E00-B04E-7EB8-3D6D-09CEECEE3BBD" localFKIndex="2C16228D-3BB9-D706-1934-E9A0B0ABDC6F" name="Karte_preko_distributera_Kompanija_za_prodaju_karata_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:26:10 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Kompanija_za_prodaju_karata</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9EBF4538-7E4B-796E-07C4-806F276ECAEB</referredTableID>
+<keyObject>82A201AD-F1EE-B62B-BC06-373393A91962</keyObject>
+<referredKeyID>82A201AD-F1EE-B62B-BC06-373393A91962</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kompanija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

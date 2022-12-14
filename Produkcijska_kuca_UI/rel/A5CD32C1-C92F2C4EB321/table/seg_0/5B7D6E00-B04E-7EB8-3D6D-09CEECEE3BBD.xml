@@ -1,26 +1,36 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2505E485-602F-7582-045C-87F52729EB36" name="koncertna_uloga">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B7D6E00-B04E-7EB8-3D6D-09CEECEE3BBD" name="Karte_preko_distributera">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:36:29 UTC</createdTime>
+<createdTime>2022-12-14 11:06:00 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_36</ordsAlias>
+<ordsAlias>table_46</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="koncertna_uloga_id" id="A948B215-8625-68C5-CD47-8B759CA96AC8">
+<Column name="cena" id="AF8EB3B7-4B48-6F0F-D878-AA7615AC1DF7">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:37:53 UTC</createdTime>
+<createdTime>2022-12-14 11:24:15 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tip_koncertne_uloge_id" id="82455F86-2B8F-65D7-9463-1106DCFEFD7A">
+<Column name="porez_procenat" id="85368084-549C-164B-03D2-D0871CDA358F">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:38:40 UTC</createdTime>
+<createdTime>2022-12-14 11:25:23 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kompanija_id" id="16DBC20F-F3F0-633D-31B5-C750185A5A29">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-14 11:26:10 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +39,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0A984768-A3BF-776D-90BF-CCC9CA2CC992" referredColumn="E6FDE569-02B2-C00C-0505-40D812413A5F"/>
+<colAssociation fkAssociation="F44B8628-1C3B-FF2E-16A1-520979530837" referredColumn="E25FD66D-D426-54D3-3E2B-D70A80D89E39"/>
 </associations>
 </Column>
-<Column name="Koncert_koncert_id" id="B80D8D17-79C2-D113-17CB-275A00DB61D8">
+<Column name="Karta_id" id="182A6ED9-9C83-54DE-A473-76BF6FECB58D">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:39:00 UTC</createdTime>
+<createdTime>2022-12-14 11:26:17 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,64 +53,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="69CE7D59-4FA3-DC22-FBD1-62BAD01D53CD" referredColumn="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
-</associations>
-</Column>
-<Column name="Ucesnik_ucesnik_id" id="8442FD32-09A6-3095-7FF6-248B832AEECD">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:40:46 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0AAE85FC-980C-5237-FB57-BE3B8DF28A9A" referredColumn="86A95DA3-4226-35AC-8873-FD48140F0647"/>
+<colAssociation fkAssociation="18711FF8-8207-54CA-B99B-4338C6E9C0A4" referredColumn="B8433E29-4576-B9A4-4897-C7B989423469"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="097C9111-86FB-48E8-26B7-14C58AE77109" name="koncertna_uloga_PK">
+<ind_PK_UK id="26F66CEE-F838-F190-C7F9-4D5468604565" name="Karte_preko_distributera_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:37:53 UTC</createdTime>
+<createdTime>2022-12-14 11:26:29 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A948B215-8625-68C5-CD47-8B759CA96AC8"/>
+<colUsage columnID="182A6ED9-9C83-54DE-A473-76BF6FECB58D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C2480F4-BF9D-6B47-3591-3E7AF86DE215" name="koncertna_uloga_Tip_koncertne_uloge_FK">
+<ind_PK_UK id="2C16228D-3BB9-D706-1934-E9A0B0ABDC6F" name="Karte_preko_distributera_Kompanija_za_prodaju_karata_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:38:40 UTC</createdTime>
+<createdTime>2022-12-14 11:26:10 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="82455F86-2B8F-65D7-9463-1106DCFEFD7A"/>
+<colUsage columnID="16DBC20F-F3F0-633D-31B5-C750185A5A29"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="545665F6-B267-8FC9-AB0B-9E2CEC379C19" name="koncertna_uloga_Koncert_FK">
+<ind_PK_UK id="58F69EC1-B262-A9FE-A821-4DA88111AF90" name="Karte_preko_distributera_Karta_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:39:00 UTC</createdTime>
+<createdTime>2022-12-14 11:26:17 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B80D8D17-79C2-D113-17CB-275A00DB61D8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6E0685BE-1F77-52A6-584D-D27ED63A88D3" name="koncertna_uloga_Ucesnik_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:40:46 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8442FD32-09A6-3095-7FF6-248B832AEECD"/>
+<colUsage columnID="182A6ED9-9C83-54DE-A473-76BF6FECB58D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
