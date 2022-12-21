@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6EE4C69-5631-ECE0-F130-E8F90BF805FB" containerWithKeyObject="B1A0E6B1-2094-3C87-89C9-28D38451CE3A" localFKIndex="B629E3F3-76EE-038F-A040-774CF1894EC9" name="Program_NivoPrograma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:35 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>NivoPrograma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>553EEFC3-B982-FAFD-13A5-F85D77F8B1BD</referredTableID>
+<keyObject>9B779D95-7937-1F9D-3F3A-3966F1378B9A</keyObject>
+<referredKeyID>9B779D95-7937-1F9D-3F3A-3966F1378B9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

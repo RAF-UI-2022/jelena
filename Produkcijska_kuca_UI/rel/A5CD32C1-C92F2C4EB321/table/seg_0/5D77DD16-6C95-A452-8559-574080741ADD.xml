@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="188E1B8E-6F1E-0C60-E922-D90B8925D873" name="Klijent">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D77DD16-6C95-A452-8559-574080741ADD" name="TemaPrograma">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:03:00 UTC</createdTime>
+<createdTime>2022-12-20 23:43:20 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_50</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="klijent_id" id="B209E340-FD21-9A8A-0F4A-A7FF258605F6">
+<Column name="id" id="3C819849-B579-5EBA-E217-03FC0E5A8E11">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:27 UTC</createdTime>
+<createdTime>2022-12-20 23:43:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="8EE93E36-3901-AC72-EC5E-A2637286A680">
+<Column name="naziv" id="3DEB0F16-3EEC-B771-ECBB-DF01D6EBC806">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:26:13 UTC</createdTime>
+<createdTime>2022-12-20 23:44:04 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,28 +28,26 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="prezime" id="E8CFD787-F836-3636-8F17-9C317F039CD8">
+<Column name="opis" id="2238202E-8086-4A63-CC90-6248A6F841F9">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:26:26 UTC</createdTime>
+<createdTime>2022-12-20 23:44:15 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7B667609-809E-89ED-19EA-2E9511B7D723" name="Umetnik_PK">
+<ind_PK_UK id="E2B34F42-FFCE-B3E2-D72A-CCDFE7A936F7" name="TemaPrograma_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:27 UTC</createdTime>
+<createdTime>2022-12-20 23:43:53 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+<colUsage columnID="3C819849-B579-5EBA-E217-03FC0E5A8E11"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

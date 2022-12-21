@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36DEF10C-B087-50CF-283A-C1DB6B5DB2C5" name="Mesto">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E87A70-69B7-507E-0695-3277031A6609" name="Uslov_stipendija">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:20:11 UTC</createdTime>
+<createdTime>2022-12-21 01:19:15 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_36</ordsAlias>
+<ordsAlias>table_66</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_mesto" id="6D8D75AB-E28B-8D7A-E242-E454C587AF3F">
+<Column name="id" id="A1A6452A-73D7-2191-60F8-3986734514C1">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:28:30 UTC</createdTime>
+<createdTime>2022-12-21 01:25:20 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Grad_grad_id" id="7C4CAD0C-BF39-7BA0-8145-9A5D0996449C">
+<Column name="vazi_od" id="4CD008DB-8C1D-F98C-9EC1-81FC974FB8E0">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:20 UTC</createdTime>
+<createdTime>2022-12-21 01:25:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazi_do" id="58C3E42F-54D7-9859-0492-20CE6CA9FD84">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:25:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Stipendije_id" id="7F09FA7E-344C-BAB3-9D71-21BD3F68C80F">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 09:14:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,62 +50,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="53E281D8-5A79-53A8-16E8-BF1DE59D211E" referredColumn="D5C55BA3-C06E-4B71-5416-A0198DBB9D5A"/>
+<colAssociation fkAssociation="5BAFED1A-7FA7-8EB0-8B89-CFF31061324A" referredColumn="B0C4221A-B97A-87C9-7BB8-F4971A6F4027"/>
 </associations>
-</Column>
-<Column name="adresa" id="E2B5FB49-7E3F-3607-0A94-EA5E39A66D0C">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:24:18 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="naziv_mesta" id="E9E4D923-B851-E585-D9C9-38C422845B1A">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:24:18 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kapacitet" id="D06047A3-E752-FB32-2BC9-2E896413F54B">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-11-13 17:24:18 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DE28CC15-5F89-D143-5D92-B7E568F8E1DB" name="Mesto_PK">
+<ind_PK_UK id="EA4D0954-EB84-E9F4-CC54-792C9D437B3B" name="Uslov_stipendija_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:28:30 UTC</createdTime>
+<createdTime>2022-12-21 01:25:20 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D8D75AB-E28B-8D7A-E242-E454C587AF3F"/>
+<colUsage columnID="A1A6452A-73D7-2191-60F8-3986734514C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9854DD9B-A0CD-1161-9167-7576F34193C8" name="Mesto_Grad_FK">
+<ind_PK_UK id="42D9914A-144F-79B4-BEE8-113FD3396471" name="Uslov_stipendija_Tip_Stipendije_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:29:20 UTC</createdTime>
+<createdTime>2022-12-21 09:14:16 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7C4CAD0C-BF39-7BA0-8145-9A5D0996449C"/>
+<colUsage columnID="7F09FA7E-344C-BAB3-9D71-21BD3F68C80F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

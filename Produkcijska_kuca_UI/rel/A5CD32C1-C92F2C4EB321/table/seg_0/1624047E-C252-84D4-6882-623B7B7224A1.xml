@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="188E1B8E-6F1E-0C60-E922-D90B8925D873" name="Klijent">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1624047E-C252-84D4-6882-623B7B7224A1" name="Tip_skolarine">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:03:00 UTC</createdTime>
+<createdTime>2022-12-21 00:41:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_57</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="klijent_id" id="B209E340-FD21-9A8A-0F4A-A7FF258605F6">
+<Column name="id" id="F7AF29D1-0FA5-FD93-E121-490F5C837FC9">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:27 UTC</createdTime>
+<createdTime>2022-12-21 00:43:18 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,21 +18,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ime" id="8EE93E36-3901-AC72-EC5E-A2637286A680">
+<Column name="vremenski_period" id="E3A3AF52-1478-99EF-F9E9-29F0D9228A23">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:26:13 UTC</createdTime>
+<createdTime>2022-12-21 00:43:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Da li je po godini, po semestru, po kursu, po programu (u zavisnosti kakav je program).
+Kao neki enum je ova tabela.]]></commentInRDBMS>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="prezime" id="E8CFD787-F836-3636-8F17-9C317F039CD8">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:26:26 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -41,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7B667609-809E-89ED-19EA-2E9511B7D723" name="Umetnik_PK">
+<ind_PK_UK id="3FC488AA-708D-5976-9865-E8B2E6D6B9CE" name="Tip_skolarine_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 09:20:27 UTC</createdTime>
+<createdTime>2022-12-21 00:43:18 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
+<colUsage columnID="F7AF29D1-0FA5-FD93-E121-490F5C837FC9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

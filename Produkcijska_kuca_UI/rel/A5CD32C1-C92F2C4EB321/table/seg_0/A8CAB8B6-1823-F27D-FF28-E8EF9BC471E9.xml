@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8CAB8B6-1823-F27D-FF28-E8EF9BC471E9" name="Tutor_Kurs_Program">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:12:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tutor_Kurs_id" id="3F23694B-EDF1-60F8-94C3-557F17C5A92C">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:12:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="209273CF-F3C2-77BF-ABA6-8411D8E77204" referredColumn="28F471AE-45B7-B775-890D-9BFB3926BF01"/>
+</associations>
+</Column>
+<Column name="Program_id" id="EC2C455C-39F3-0651-7306-CF99C3201647">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:12:54 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DC3F043-0B60-033B-204F-857E36AF9FD9" referredColumn="714F1CBA-F48A-D683-8186-91280C041DB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A215FDB-FBAB-638B-49D0-61D42537476A" name="Tutor_Kurs_Program_Tutor_Kurs_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:12:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F23694B-EDF1-60F8-94C3-557F17C5A92C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE46D820-27C6-A018-D830-520A3DFD87D8" name="Tutor_Kurs_Program_Program_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:12:54 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2C455C-39F3-0651-7306-CF99C3201647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

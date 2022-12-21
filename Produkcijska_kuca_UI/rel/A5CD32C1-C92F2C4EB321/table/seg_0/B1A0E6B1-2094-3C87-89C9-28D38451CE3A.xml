@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1A0E6B1-2094-3C87-89C9-28D38451CE3A" name="Program">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:45:48 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="714F1CBA-F48A-D683-8186-91280C041DB8">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:46:00 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesto_id_mesto" id="63D9DA3E-F797-2E01-DC2A-BEDCE5603F9A">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:28 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9623D19-DE24-FE45-BEEC-57BB3D8A5B32" referredColumn="6D8D75AB-E28B-8D7A-E242-E454C587AF3F"/>
+</associations>
+</Column>
+<Column name="TemaPrograma_id" id="205CA370-650F-07AA-1220-BB086EC670DC">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E27C967-A319-8667-6C1B-110C006D014D" referredColumn="3C819849-B579-5EBA-E217-03FC0E5A8E11"/>
+</associations>
+</Column>
+<Column name="NivoPrograma_id" id="FCD3F6C6-53D5-3FEA-682A-53BC60C1FEB4">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:35 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6EE4C69-5631-ECE0-F130-E8F90BF805FB" referredColumn="5AFD4A33-C028-FABA-E2C4-7EC3B11B11F8"/>
+</associations>
+</Column>
+<Column name="Skolarina_id" id="393DB235-7572-28BA-E0E1-DA8C735A72B6">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:58:34 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63F5F2A9-A53C-A766-4456-CC56A99458B3" referredColumn="265588D7-BDBA-84C7-ED72-C0283E275ABD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4388E0EB-6E16-BBBE-8413-0F723AD61CF0" name="Program_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:46:00 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="714F1CBA-F48A-D683-8186-91280C041DB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DF73487-CF7E-9FAE-4A72-6F0B963CE1B3" name="Program_Mesto_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:28 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D9DA3E-F797-2E01-DC2A-BEDCE5603F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81142BD2-18C9-8CD9-4D86-08A8E5FE4017" name="Program_TemaPrograma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:31 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205CA370-650F-07AA-1220-BB086EC670DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B629E3F3-76EE-038F-A040-774CF1894EC9" name="Program_NivoPrograma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-20 23:47:35 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD3F6C6-53D5-3FEA-682A-53BC60C1FEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="809C5234-2F57-7280-B9FB-3F91D2207F6B" name="Program_Skolarina_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:58:34 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="393DB235-7572-28BA-E0E1-DA8C735A72B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

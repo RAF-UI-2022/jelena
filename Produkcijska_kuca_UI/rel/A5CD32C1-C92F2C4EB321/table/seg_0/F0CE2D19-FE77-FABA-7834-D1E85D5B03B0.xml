@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0CE2D19-FE77-FABA-7834-D1E85D5B03B0" name="Uslovni_kurs">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:02:59 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kurs_id" id="6EA086C3-6094-36F6-F22E-7306EED95167">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:03:51 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F398F3-415D-F4EB-E06B-FC2F703937C0" referredColumn="4DEF0C7A-51B7-9300-D21B-4ED4125221AD"/>
+</associations>
+</Column>
+<Column name="Uslovni_kurs_id" id="F39746EC-BDF1-3C78-A2F8-6047798CE399">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:03:56 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF6691F5-0580-A927-8B0B-63015380C59F" referredColumn="4DEF0C7A-51B7-9300-D21B-4ED4125221AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F16BB16-E551-EEA9-3828-0295A8A8EC10" name="Uslovni_kurs_Kurs_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:03:51 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EA086C3-6094-36F6-F22E-7306EED95167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D29B44C-4F79-FDBA-DCCC-8EE0C041D34E" name="Uslovni_kurs_Kurs_FKv2">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 01:03:56 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39746EC-BDF1-3C78-A2F8-6047798CE399"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

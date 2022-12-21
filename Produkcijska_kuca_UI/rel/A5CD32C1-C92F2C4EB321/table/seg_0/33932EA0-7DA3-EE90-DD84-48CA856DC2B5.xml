@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33932EA0-7DA3-EE90-DD84-48CA856DC2B5" name="Tutor_Kurs">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:58:48 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="28F471AE-45B7-B775-890D-9BFB3926BF01">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:24 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kurs_id" id="FB101810-7AA4-CF3A-F898-86C75B5BEFB6">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:29 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DFF9BE2-F155-4A8C-519A-B85EBA781434" referredColumn="4DEF0C7A-51B7-9300-D21B-4ED4125221AD"/>
+</associations>
+</Column>
+<Column name="Tutor_id" id="ED91F758-3ED1-7A6A-99A4-C6C9EC88A4E7">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:33 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85DBF69D-152A-E881-25E5-9DEE9FF1FCFC" referredColumn="8F73423F-9A09-1939-971B-C9B1108DA5B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C46EACE6-28F0-E5CF-6282-28E299F100B3" name="Tutor_Kurs_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:43 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F471AE-45B7-B775-890D-9BFB3926BF01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BACB7FF8-C8AA-897F-5FD0-2DED28D5506D" name="Tutor_Kurs_Kurs_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:29 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB101810-7AA4-CF3A-F898-86C75B5BEFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F944A223-A2E6-4CB8-241B-906EF3CD3836" name="Tutor_Kurs_Tutor_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 00:59:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED91F758-3ED1-7A6A-99A4-C6C9EC88A4E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
