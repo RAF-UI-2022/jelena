@@ -28,19 +28,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tip_skolarine_id" id="177BEE05-311E-53A8-0590-629974A12B04">
+<Column name="vremenski_period" id="9E2A2965-79ED-6847-1D4C-B57A14002A80">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:43:36 UTC</createdTime>
+<createdTime>2023-01-11 15:36:50 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="078508D4-FEC3-689F-277A-603268AB2F8E" referredColumn="F7AF29D1-0FA5-FD93-E121-490F5C837FC9"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -53,16 +50,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="265588D7-BDBA-84C7-ED72-C0283E275ABD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3F59B36C-81DA-3225-FC28-64C4CF9AAF4C" name="Skolarina_Tip_skolarine_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:43:36 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="177BEE05-311E-53A8-0590-629974A12B04"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

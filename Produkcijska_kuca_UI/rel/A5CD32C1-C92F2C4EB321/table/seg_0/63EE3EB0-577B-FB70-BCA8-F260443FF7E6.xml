@@ -22,8 +22,10 @@
 <createdBy>Jelena</createdBy>
 <createdTime>2022-10-25 11:30:22 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

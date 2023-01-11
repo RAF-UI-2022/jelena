@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0CE2D19-FE77-FABA-7834-D1E85D5B03B0" name="Uslovni_kurs">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D6DD714-F772-8659-30B0-6DDDD940D981" name="Studio_oprema">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:02:59 UTC</createdTime>
+<createdTime>2023-01-11 15:35:02 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_64</ordsAlias>
+<ordsAlias>table_69</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Kurs_id" id="6EA086C3-6094-36F6-F22E-7306EED95167">
+<Column name="id" id="5D203D51-29A5-6B67-C15C-2E89B01C0C96">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:03:51 UTC</createdTime>
+<createdTime>2023-01-11 15:35:21 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Studio_id" id="3F763CEB-EAEE-861E-4088-E2A6F154C9A8">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:35:31 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="89F398F3-415D-F4EB-E06B-FC2F703937C0" referredColumn="4DEF0C7A-51B7-9300-D21B-4ED4125221AD"/>
+<colAssociation fkAssociation="55E47EC9-4A88-4ABC-7A8A-4430BDF7DB68" referredColumn="E6F244F7-E8E5-B502-9F45-B7E3244262B4"/>
 </associations>
 </Column>
-<Column name="Uslovni_kurs_id" id="F39746EC-BDF1-3C78-A2F8-6047798CE399">
+<Column name="Oprema_id" id="8BEC7364-FB08-97EF-BE5A-D628C177A9BD">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:03:56 UTC</createdTime>
+<createdTime>2023-01-11 15:35:35 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,53 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FF6691F5-0580-A927-8B0B-63015380C59F" referredColumn="4DEF0C7A-51B7-9300-D21B-4ED4125221AD"/>
-</associations>
-</Column>
-<Column name="Opis_Uslova_id" id="75ECD532-A715-A4D0-D865-EFFE9E3F13FE">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 20:06:59 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2B1F6EB0-E5CE-FC19-6FF9-251A32AA1B08" referredColumn="33B866C2-4FD5-CFE5-72A6-F1177F7EC1EA"/>
+<colAssociation fkAssociation="C313BBAE-C1B9-3BF3-D066-BC6E4312BF3A" referredColumn="806DD68F-E4B2-3FD1-2C9C-CA0A855652A8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3F16BB16-E551-EEA9-3828-0295A8A8EC10" name="Uslovni_kurs_Kurs_FK">
+<ind_PK_UK id="3E64CDC5-8C85-AE84-9857-D3FEBDCE81C9" name="Studio_oprema_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:03:51 UTC</createdTime>
+<createdTime>2023-01-11 15:35:21 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6EA086C3-6094-36F6-F22E-7306EED95167"/>
+<colUsage columnID="5D203D51-29A5-6B67-C15C-2E89B01C0C96"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4D29B44C-4F79-FDBA-DCCC-8EE0C041D34E" name="Uslovni_kurs_Kurs_FKv2">
+<ind_PK_UK id="1455130C-1DFF-136E-C9C1-5545EFD33157" name="Studio_oprema_Studio_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:03:56 UTC</createdTime>
+<createdTime>2023-01-11 15:35:31 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F39746EC-BDF1-3C78-A2F8-6047798CE399"/>
+<colUsage columnID="3F763CEB-EAEE-861E-4088-E2A6F154C9A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="27BD7127-9709-25C1-86A6-3E5A1326D239" name="Uslovni_kurs_Opis_Uslova_FK">
+<ind_PK_UK id="8BA1D6C4-B79E-7964-F6B2-225EF797FFE8" name="Studio_oprema_Oprema_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 20:06:59 UTC</createdTime>
+<createdTime>2023-01-11 15:35:35 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="75ECD532-A715-A4D0-D865-EFFE9E3F13FE"/>
+<colUsage columnID="8BEC7364-FB08-97EF-BE5A-D628C177A9BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

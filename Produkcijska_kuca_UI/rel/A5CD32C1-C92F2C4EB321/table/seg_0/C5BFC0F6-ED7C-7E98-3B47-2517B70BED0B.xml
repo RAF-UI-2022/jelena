@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5BFC0F6-ED7C-7E98-3B47-2517B70BED0B" name="Opis_Uslova">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:05:24 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="detalji" id="EBA500FA-F392-18A4-31A4-1C266C415C30">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:06:09 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="33B866C2-4FD5-CFE5-72A6-F1177F7EC1EA">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:06:52 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3FA9411-F1F8-6174-1AC8-42C01716ACCA" name="Opis_Uslova_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:06:52 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B866C2-4FD5-CFE5-72A6-F1177F7EC1EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

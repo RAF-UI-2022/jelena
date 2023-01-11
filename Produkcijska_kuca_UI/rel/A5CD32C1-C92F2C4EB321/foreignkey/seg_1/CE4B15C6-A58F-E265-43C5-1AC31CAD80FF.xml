@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01C593E6-8DF2-7025-7CE7-3E0216010450" containerWithKeyObject="C4C9C4C3-C046-EE04-3FE6-E71F2E1FD41D" localFKIndex="7C05CAC4-C6BA-EAEF-76DB-D3981C7D5D28" name="redni_broj_nastupa_koncert_Redni_broj_nastupa_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CE4B15C6-A58F-E265-43C5-1AC31CAD80FF" containerWithKeyObject="2505E485-602F-7582-045C-87F52729EB36" localFKIndex="85CCEAEF-9A31-623F-9FFA-FFD686453424" name="koncertna_uloga_Redni_broj_nastupa_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:37:02 UTC</createdTime>
+<createdTime>2022-12-21 20:03:50 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <referredTableLongName>Redni_broj_nastupa</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

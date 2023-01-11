@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A32B310-5457-C10F-EDCB-ADA0EC7776AD" name="Polaznik_program_stipendija">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:05:38 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="14AC5E42-466C-961A-6758-0253EB3E8BE7">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:23 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="od" id="4BCD549D-63C2-F40F-7BC9-98140FB0095C">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:23 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="3C6F33E2-83B2-61DB-5963-38864D6CEDE6">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:23 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Polaznik_klijent_id" id="2A573E14-8BD9-43C0-F0EA-68CDF2D033F3">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2AAF68E-5AAA-9BFD-ED68-CA9A906F4998" referredColumn="B1658408-F890-8972-E2F0-099CDCB62F09"/>
+</associations>
+</Column>
+<Column name="Polaznik_id" id="27848F5D-3C09-30CB-EBA5-A0228E13FB8B">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2AAF68E-5AAA-9BFD-ED68-CA9A906F4998" referredColumn="4B3F7EC7-B52C-B05B-79ED-52C6B02348FD"/>
+</associations>
+</Column>
+<Column name="Program_id" id="815A7780-7008-36CF-1866-7E65F28A89F3">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76F87D30-7725-3760-AF90-8AEE5A890CDB" referredColumn="714F1CBA-F48A-D683-8186-91280C041DB8"/>
+</associations>
+</Column>
+<Column name="Stipendija_id" id="B94B2502-DB0B-604F-4CB7-971DE10CD3E5">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:36 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A8B65AB-9A44-0DEE-8DA1-BE93AB17BC92" referredColumn="A1A6452A-73D7-2191-60F8-3986734514C1"/>
+</associations>
+</Column>
+<Column name="konacan_iznos" id="4522FC92-4E96-E374-D9EE-E9AF09FB86B0">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:07:28 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2C73DF8-8C8D-D509-31BB-5045542F6BDB" name="Polaznik_program_stipendija_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:23 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AC5E42-466C-961A-6758-0253EB3E8BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F98B363-9E58-9C67-1299-294FFEA1C2A2" name="Polaznik_program_stipendija_Polaznik_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:26 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A573E14-8BD9-43C0-F0EA-68CDF2D033F3"/>
+<colUsage columnID="27848F5D-3C09-30CB-EBA5-A0228E13FB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC1B90E-26F1-C8C3-A02D-419F14B70403" name="Polaznik_program_stipendija_Program_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:32 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="815A7780-7008-36CF-1866-7E65F28A89F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A35F4469-B844-C08E-381B-89E9F7B43902" name="Polaznik_program_stipendija_Stipendija_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:06:36 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94B2502-DB0B-604F-4CB7-971DE10CD3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

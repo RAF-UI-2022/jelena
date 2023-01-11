@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE" name="Koncert">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE341043-8417-9609-077D-7AF3877DCA47" name="Program_stipendija">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:26:45 UTC</createdTime>
+<createdTime>2023-01-11 15:04:07 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_30</ordsAlias>
+<ordsAlias>table_63</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="koncert_id" id="D7FC7B95-610D-2393-E1E0-991C9DE78EAD">
+<Column name="id" id="8C74D8E8-F552-195F-5901-E4CDDAB29D2A">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2023-01-11 15:05:06 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Dogadjaj_dogadjaj_id" id="FED0B614-2C27-73D4-C548-474E17549CB4">
+<Column name="od" id="42EC6EDE-850E-96E6-9B6D-C280722601A9">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2023-01-11 15:05:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="do" id="95414388-DAE5-853F-782B-4D796BCC4BA1">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:05:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stipendija_id" id="88218EE9-3587-01AD-5347-9D368502B0FD">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:05:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,47 +50,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8CBFFB26-63AF-CEE8-0A02-FA55ABD7957D" referredColumn="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+<colAssociation fkAssociation="22A9AA8F-AD11-08BF-94E9-41E776DFDA82" referredColumn="A1A6452A-73D7-2191-60F8-3986734514C1"/>
 </associations>
 </Column>
-<Column name="pocetak_koncerta" id="3DE73D00-D1BE-8513-C64F-ECD845D1B75E">
+<Column name="Program_id" id="2750039D-EBA1-8726-1CDB-47DBAEC3000C">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[pocetak_nastupa je u satima i minutima]]></commentInRDBMS>
+<createdTime>2023-01-11 15:05:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT047</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kraj_koncerta" id="710CD042-648A-CC0E-ED94-1D731B773611">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:13 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT047</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="naziv_bine" id="8676AB50-9A91-7F75-D2A9-C95C132E8DC0">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:31:31 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Turneja_turneja_id" id="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:21:22 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -77,40 +64,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5FCCE7A4-15E3-22EA-27EF-1C3DFC42C771" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
+<colAssociation fkAssociation="D2E00D30-9765-FD80-77B9-501941406DA9" referredColumn="714F1CBA-F48A-D683-8186-91280C041DB8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D079D4A3-49A4-44BF-286C-4B936C458F0B" name="Nastup_PK">
+<ind_PK_UK id="6A03685F-0FDC-559B-4EAB-B3986B4AE2DE" name="Program_stipendija_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2023-01-11 15:05:06 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
+<colUsage columnID="8C74D8E8-F552-195F-5901-E4CDDAB29D2A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D4C5B9B-5415-499D-AA6B-16495F0BD8BD" name="Nastup_Dogadjaj_FK">
+<ind_PK_UK id="BAED5F51-537B-2C27-47EE-F4E51F9AC5C3" name="Program_stipendija_Stipendija_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2023-01-11 15:05:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FED0B614-2C27-73D4-C548-474E17549CB4"/>
+<colUsage columnID="88218EE9-3587-01AD-5347-9D368502B0FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9D25F61-B45D-BDC1-9166-75FC25B6D0AA" name="Koncert_Turneja_FK">
+<ind_PK_UK id="83B78324-7AB2-6086-48DC-65CB0729C525" name="Program_stipendija_Program_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:21:22 UTC</createdTime>
+<createdTime>2023-01-11 15:05:19 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8"/>
+<colUsage columnID="2750039D-EBA1-8726-1CDB-47DBAEC3000C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

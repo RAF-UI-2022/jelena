@@ -22,20 +22,6 @@
 <colAssociation fkAssociation="E2F05E74-536C-C293-5E91-1A8A1EEB9B93" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
 </associations>
 </Column>
-<Column name="Program_id" id="C8DB4429-4E5A-285D-9918-70110B8BB855">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:07:13 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1B2A77BF-B3E8-4001-0A0E-52B1B9652625" referredColumn="714F1CBA-F48A-D683-8186-91280C041DB8"/>
-</associations>
-</Column>
 <Column name="uslov_za_stipendiju" id="0CA21906-3F91-8590-A449-1F54D3E1D431">
 <createdBy>Jelena</createdBy>
 <createdTime>2022-12-21 01:14:42 UTC</createdTime>
@@ -67,21 +53,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Uslov_stipendija_id" id="B2205EE7-7A7E-C38C-DEA2-20AF4E4CC523">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:51:05 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1A903E6C-3A20-00B0-E5BA-F38A19CC26EA" referredColumn="A1A6452A-73D7-2191-60F8-3986734514C1"/>
-</associations>
 </Column>
 <Column name="trenutno_studira" id="579B8B3E-CF55-1D20-BC61-505651B216CE">
 <createdBy>Jelena</createdBy>
@@ -116,26 +87,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B1658408-F890-8972-E2F0-099CDCB62F09"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="26C71AAB-D992-A6CC-74E8-D6353C87FBB7" name="Polaznik_Program_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:07:13 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C8DB4429-4E5A-285D-9918-70110B8BB855"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D8F273A8-1324-EEAD-C077-D0C4DD45DDD2" name="Polaznik_Uslov_stipendija_FK">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 01:51:05 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B2205EE7-7A7E-C38C-DEA2-20AF4E4CC523"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

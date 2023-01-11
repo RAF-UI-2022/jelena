@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF4594D-A27D-ADB0-C7F4-436AB0DAA2BE" name="Koncert">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3A459F1-E40A-7859-D080-228A4750587C" name="Zakazivanje_studija">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:26:45 UTC</createdTime>
+<createdTime>2023-01-11 15:29:59 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_30</ordsAlias>
+<ordsAlias>table_66</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="koncert_id" id="D7FC7B95-610D-2393-E1E0-991C9DE78EAD">
+<Column name="id" id="DBB1E849-21A8-1D0E-53E4-4D36E5C93A4B">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,54 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Dogadjaj_dogadjaj_id" id="FED0B614-2C27-73D4-C548-474E17549CB4">
+<Column name="broj_sati" id="42AB6606-AE9D-1463-6976-2945D6508EAC">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="D55B1A59-7DD0-9F60-3191-1D284C27CF9A">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukupna_cena" id="EEDC211B-4523-3315-10F9-49676A385A10">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuvar_pomocnik" id="B0FA7D56-E64F-AAF2-C372-A90D9C86F003">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klijent_klijent_id" id="B2D6B17C-AFCD-B4CB-6033-E4FF719FCCAE">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 15:33:37 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,47 +74,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8CBFFB26-63AF-CEE8-0A02-FA55ABD7957D" referredColumn="07057DC7-2753-0AD8-85C9-68935D4FB2B1"/>
+<colAssociation fkAssociation="D8B996AC-703D-1A64-CCFC-6069C4161E04" referredColumn="B209E340-FD21-9A8A-0F4A-A7FF258605F6"/>
 </associations>
 </Column>
-<Column name="pocetak_koncerta" id="3DE73D00-D1BE-8513-C64F-ECD845D1B75E">
+<Column name="Studio_id" id="7BF86C1C-2811-2614-2F96-ECA5DFEF5442">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[pocetak_nastupa je u satima i minutima]]></commentInRDBMS>
+<createdTime>2023-01-11 15:33:49 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT047</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kraj_koncerta" id="710CD042-648A-CC0E-ED94-1D731B773611">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-10-25 10:39:13 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT047</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="naziv_bine" id="8676AB50-9A91-7F75-D2A9-C95C132E8DC0">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-11-02 10:31:31 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Turneja_turneja_id" id="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8">
-<createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:21:22 UTC</createdTime>
-<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -77,40 +88,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5FCCE7A4-15E3-22EA-27EF-1C3DFC42C771" referredColumn="4EA46DDE-D3BF-956A-EC7D-8C963E57D3BD"/>
+<colAssociation fkAssociation="9969AC3F-C143-25D7-0536-9D320BB96E47" referredColumn="E6F244F7-E8E5-B502-9F45-B7E3244262B4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D079D4A3-49A4-44BF-286C-4B936C458F0B" name="Nastup_PK">
+<ind_PK_UK id="C9B09181-879D-7620-0EAD-2B01EFDC6D6C" name="Zakazivanje_studija_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:04 UTC</createdTime>
+<createdTime>2023-01-11 15:33:17 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
+<colUsage columnID="DBB1E849-21A8-1D0E-53E4-4D36E5C93A4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D4C5B9B-5415-499D-AA6B-16495F0BD8BD" name="Nastup_Dogadjaj_FK">
+<ind_PK_UK id="D4914457-0939-B17F-CF7B-25C70831BCD6" name="Zakazivanje_studija_Klijent_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-10-18 10:27:57 UTC</createdTime>
+<createdTime>2023-01-11 15:33:37 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FED0B614-2C27-73D4-C548-474E17549CB4"/>
+<colUsage columnID="B2D6B17C-AFCD-B4CB-6033-E4FF719FCCAE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9D25F61-B45D-BDC1-9166-75FC25B6D0AA" name="Koncert_Turneja_FK">
+<ind_PK_UK id="9FB372B9-5983-7818-F98A-228A0456675B" name="Zakazivanje_studija_Studio_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:21:22 UTC</createdTime>
+<createdTime>2023-01-11 15:33:49 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EA9CCF02-CB51-CB4B-B129-6F4E1E85E5B8"/>
+<colUsage columnID="7BF86C1C-2811-2614-2F96-ECA5DFEF5442"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

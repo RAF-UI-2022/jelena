@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1624047E-C252-84D4-6882-623B7B7224A1" name="Tip_skolarine">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1272286E-A97F-9917-543E-E459C975197E" name="Tip_opreme">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:41:19 UTC</createdTime>
+<createdTime>2023-01-11 15:33:55 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
-<ordsAlias>table_57</ordsAlias>
+<ordsAlias>table_67</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="F7AF29D1-0FA5-FD93-E121-490F5C837FC9">
+<Column name="id" id="7DAB15B5-7900-D7DD-0522-D4B4965F2B35">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:43:18 UTC</createdTime>
+<createdTime>2023-01-11 15:34:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vremenski_period" id="E3A3AF52-1478-99EF-F9E9-29F0D9228A23">
+<Column name="naziv" id="21CA53FB-30A8-099A-FFEA-BC54DCFFCA1D">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:43:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Da li je po godini, po semestru, po kursu, po programu (u zavisnosti kakav je program).
-Kao neki enum je ova tabela.]]></commentInRDBMS>
+<createdTime>2023-01-11 15:34:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -32,15 +31,15 @@ Kao neki enum je ova tabela.]]></commentInRDBMS>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3FC488AA-708D-5976-9865-E8B2E6D6B9CE" name="Tip_skolarine_PK">
+<ind_PK_UK id="641C3D3D-98B4-BCB6-61C4-E60F553D07BD" name="Tip_opreme_PK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-21 00:43:18 UTC</createdTime>
+<createdTime>2023-01-11 15:34:13 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F7AF29D1-0FA5-FD93-E121-490F5C837FC9"/>
+<colUsage columnID="7DAB15B5-7900-D7DD-0522-D4B4965F2B35"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

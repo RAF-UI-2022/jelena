@@ -8,7 +8,7 @@
 <referredTableID>188E1B8E-6F1E-0C60-E922-D90B8925D873</referredTableID>
 <keyObject>7B667609-809E-89ED-19EA-2E9511B7D723</keyObject>
 <referredKeyID>7B667609-809E-89ED-19EA-2E9511B7D723</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>klijent_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -60,6 +60,20 @@
 <colAssociation fkAssociation="0AAE85FC-980C-5237-FB57-BE3B8DF28A9A" referredColumn="86A95DA3-4226-35AC-8873-FD48140F0647"/>
 </associations>
 </Column>
+<Column name="Redni_broj_nastupa_id" id="EF208E1F-2A8D-D242-3066-5831AA719E01">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:03:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE4B15C6-A58F-E265-43C5-1AC31CAD80FF" referredColumn="57FC5205-4457-C3BA-577C-29751DF0B981"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="097C9111-86FB-48E8-26B7-14C58AE77109" name="koncertna_uloga_PK">
@@ -101,6 +115,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8442FD32-09A6-3095-7FF6-248B832AEECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85CCEAEF-9A31-623F-9FFA-FFD686453424" name="koncertna_uloga_Redni_broj_nastupa_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2022-12-21 20:03:50 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF208E1F-2A8D-D242-3066-5831AA719E01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
