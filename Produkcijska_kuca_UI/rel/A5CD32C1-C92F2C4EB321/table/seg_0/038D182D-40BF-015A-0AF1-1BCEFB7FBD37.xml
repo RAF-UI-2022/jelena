@@ -29,9 +29,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="koncertna_uloga_id" id="9883959B-53C3-31D2-C75B-878BC5B87F30">
+<Column name="Nastup_id" id="A097A382-D207-01C3-4615-44810B520413">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:31:14 UTC</createdTime>
+<createdTime>2023-01-11 17:25:41 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,7 +40,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="169BF9D2-3EA7-7626-AEAE-0A7D2765A444" referredColumn="A948B215-8625-68C5-CD47-8B759CA96AC8"/>
+<colAssociation fkAssociation="72AB6EEA-0498-CDBA-CA99-AC6E6AB5D042" referredColumn="457E2824-B6B4-332E-0845-D6C7372DC6D3"/>
 </associations>
 </Column>
 </columns>
@@ -56,14 +56,14 @@
 <colUsage columnID="57FC5205-4457-C3BA-577C-29751DF0B981"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B9C5C5E-5463-6C68-C4BA-3DC206E80C1C" name="Redni_broj_koncertna_uloga_FK">
+<ind_PK_UK id="9ED69F08-499E-F99C-DAB1-339281C2E545" name="Redni_broj_nastupa_Nastup_FK">
 <createdBy>Jelena</createdBy>
-<createdTime>2022-12-14 11:31:14 UTC</createdTime>
+<createdTime>2023-01-11 17:25:41 UTC</createdTime>
 <ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9883959B-53C3-31D2-C75B-878BC5B87F30"/>
+<colUsage columnID="A097A382-D207-01C3-4615-44810B520413"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7A874EDF-2B7E-1DBE-A71A-E94FE249A098" containerWithKeyObject="11E23E7A-91FF-8A5C-8E07-8CECB514C96B" localFKIndex="AC56A7A5-AD37-03CB-A646-245841C39A3C" name="Koncertna_uloga_nastup_Nastup_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:24:20 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<referredTableLongName>Nastup</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D08A602E-882C-1B23-0B9B-B5CD74BE20CC</referredTableID>
+<keyObject>3296FD4E-C535-647E-EFCA-F04B6946392C</keyObject>
+<referredKeyID>3296FD4E-C535-647E-EFCA-F04B6946392C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

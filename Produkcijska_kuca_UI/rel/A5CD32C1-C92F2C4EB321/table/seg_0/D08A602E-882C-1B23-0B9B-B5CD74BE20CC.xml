@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D08A602E-882C-1B23-0B9B-B5CD74BE20CC" name="Nastup">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:22:56 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="457E2824-B6B4-332E-0845-D6C7372DC6D3">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Redni_broj_nastupa_id" id="09306DBD-E5E5-EEB0-27AB-F3C058621F87">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:11 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C768A2-1C8C-823A-6E02-5E3B4CC561C0" referredColumn="57FC5205-4457-C3BA-577C-29751DF0B981"/>
+</associations>
+</Column>
+<Column name="Koncert_koncert_id" id="F610F95B-9F1E-3D8E-72FE-13C5B13F9DC7">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:39 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C30CACD0-BE45-A560-3BBA-97A1A91E93C6" referredColumn="D7FC7B95-610D-2393-E1E0-991C9DE78EAD"/>
+</associations>
+</Column>
+<Column name="Pesma_pesma_id" id="DE6C1CC1-E08D-C14B-A581-5E88C87A0449">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:24:48 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5F8B4F6-14D5-3AFC-4761-C0745A4B057E" referredColumn="E6995BEB-4762-258C-44EC-57580E65FF05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3296FD4E-C535-647E-EFCA-F04B6946392C" name="Nastup_PK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:06 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457E2824-B6B4-332E-0845-D6C7372DC6D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0754EE6F-FFAB-8F90-E7C3-77DAA5AB479A" name="Nastup_Redni_broj_nastupa_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:11 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09306DBD-E5E5-EEB0-27AB-F3C058621F87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53BAD97F-83A5-682C-1042-D42228BFF678" name="Nastup_Koncert_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:23:39 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F610F95B-9F1E-3D8E-72FE-13C5B13F9DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94C00811-233F-2D3B-5429-C76CAB77D401" name="Nastup_Pesma_FK">
+<createdBy>Jelena</createdBy>
+<createdTime>2023-01-11 17:24:48 UTC</createdTime>
+<ownerDesignName>Produkcijska_kuca_UI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE6C1CC1-E08D-C14B-A581-5E88C87A0449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
